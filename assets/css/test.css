@@ -1,0 +1,15 @@
+.img8pitch1{
+width: 100%;
+height: 400px;
+background-image: url('/home/deleu/cv/assets/img/1.png');
+background-repeat: no-repeat;
+background-size: contain;
+border: 1px solid green;
+
+
+}
+.container{
+  background-color:red;
+  padding-left:0px;
+  padding-right:0px;
+}
