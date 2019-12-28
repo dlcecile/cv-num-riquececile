@@ -1,79 +1,136 @@
-/* container */
-.container_pad{
-	border: 4px solid red;
-	background-color: #45424B;
 
+.containertest7{
+	border:3px solid grey;
+margin-right: 10px;
+padding-right: 40px;
+padding-top: 70px;
 
 }
-.col-12{
+.containertest8{
+	border:3px solid pink;
+	display: flex;
+	flex-direction: column;
+}
+/* container général */
+.generalContainer{
+	border:4px solid green;
+	display: flex;
+	flex-direction: row;
+	background-color: #2F2F3A;
+}
+/* Container gauche */
+.leftContainer{
+border: 1px solid purple;
+width: 25%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.customBank{
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	font-size: 35px;
+	color:black;
+}
+.customButtonLeftContainer{
+	border: 1px solid black;
+	text-align: center;
 	background-color: grey;
 }
-.pad{
-
-    border: 3px solid black;
-    color:black;
-		margin-top:10px;
-		margin-left: 15px;
-		margin-bottom: 15px;
-		border-radius:20px;
-		box-shadow: 5px 5px 4px 2px yellow;
-
-
-/* margin:10px; */
-/* border-radius: 14px; */
+.buttonDesactivedLeft{
+ box-shadow: 4px 4px 8px red;
+ margin-bottom: 7px;
 }
-
-	.col-3::after {
+/* fin container gauche */
+/* container général milieu */
+.middelContainer{
+	border: 6px solid red;
+}
+/* Fin container général */
+/* Début container1 */
+.container-fluid1{
+}
+/* Custom pad */
+.test{
+	border: 1px solid black;
+	background-color: #2F2F3A;
+}
+.padCustom1{
+    border: 1px solid #029F98;
+    color:black;
+		border-radius:5px;
+		box-shadow: 6px 9px 1px 2px #029F98;
+		background-color: #029F98;
+		background: radial-gradient(white,#029F98);
+}
+.padCustom2{
+    border: 1px solid #FF03F6;
+    color:black;
+		border-radius:5px;
+		box-shadow: 6px 9px 1px 2px #FF03F6;
+		background-color: #FF03F6;
+		background: radial-gradient(white, #FF03F6);
+}
+.padCustom3{
+    border: 1px solid #542F8C;
+    color:black;
+		border-radius:5px;
+	  box-shadow: 6px 9px 1px 2px #542F8C;
+		background-color: #542F8C;
+		background: radial-gradient(white, #542F8C);
+}
+.padCustom4{
+    border: 1px solid #EAC700;
+    color:black;
+		border-radius:5px;
+		box-shadow: 6px 9px 1px 2px #EAC700;
+		background-color: #EAC700;
+	  background: radial-gradient(white, #EAC700);
+}
+.padCustom5{
+    border: 1px solid #D02A58;
+    color:black;
+		border-radius:5px;
+		box-shadow: 6px 9px 1px 2px #D02A58;
+		background-color: #D02A58;
+		background: radial-gradient(white, #D02A58);
+}
+/* Faire un media queries pour le border shadow diminuer la taille */
+	.pad::after {
 	  content: '';
 	  display: block;
     padding-bottom: 100%;
-
 	}
+	/* Fin Custompad */
+	/* Début entetedupad */
+	.padInfo{
+		color:white;
+	}
+	.buttonDesactived{
+		box-shadow: 6px 6px 6px red;
+	}
+	/* fin entetedudupad */
+	.customButtonMiddleContainer{
+		font-size: 10px;
+		color:black;
+	}
+
+	/* Début modal */
 	.modaleButtonBackground {
     background-color: #14354F;
+}
+/* Fin modal */
+/*  */
+.container-fluid2{
 
 }
-/* Pour l'écran */
-.marquee-rtl {
-  max-width: 30em;                      /* largeur de la fenêtre */
-  margin: 2em auto 2em;
-  border: 10px solid #F0F0FF;
-  overflow: hidden;                     /* masque tout ce qui dépasse */
-  box-shadow: 0 .25em .5em #CCC,inset 0 0 1em .25em #CCC;
+.performanceMode{
+	color:white;
+	margin-top:20px;
 }
-/* le bloc défilant */
-.marquee-rtl > :first-child {
-  display: inline-block;                /* modèle de boîte en ligne */
-  padding-right: 2em;                   /* un peu d'espace pour la transition */
-  padding-left: 100%;                   /* placement à droite du conteneur */
-  white-space: nowrap;                  /* pas de passage à la ligne */
-  animation: defilement-rtl 15s infinite linear;
-}
-@keyframes defilement-rtl {
-  0% {
-    transform: translate3d(0,0,0);      /* position initiale à droite */
-  }
-  100% {
-    transform: translate3d(-100%,0,0);  /* position finale à gauche */
-  }
-}
-#screen{
-	max-width: 30em;                      /* largeur de la fenêtre */
-	margin: 2em auto 2em;
-	border: 10px solid #F0F0FF;
-	overflow: hidden;                     /* masque tout ce qui dépasse */
-	box-shadow: 0 .25em .5em #CCC,inset 0 0 1em .25em #CCC;
 
-}
-/* Second container */
-.container_pad2{
-	border:3px solid green;
-}
-img{
-	width: 100%;
-	height: auto;
-}
-.bouton{
-	margin-left: 10px;
-	box-shadow: 5px 5px 4px 2px red;
+/* Container droit */
+.rightContainer{
+	border:1px solid purple;
+	width: 25%;
 }

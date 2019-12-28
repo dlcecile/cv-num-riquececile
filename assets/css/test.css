@@ -1,15 +1,68 @@
-.img8pitch1{
-width: 100%;
-height: 400px;
-background-image: url('/home/deleu/cv/assets/img/1.png');
-background-repeat: no-repeat;
-background-size: contain;
-border: 1px solid green;
-
-
-}
 .container{
-  background-color:red;
-  padding-left:0px;
-  padding-right:0px;
+  display:flex;
+  flex-direction: row;
+  border: 6px solid purple;
 }
+.container1{
+  border:6px solid green;
+}
+.container2{
+  border:6px solid red;
+}
+.container3{
+  border:6px solid yellow;
+}
+/* Pour l'écran */
+.marquee-rtl {
+  max-width: 30em;                      /* largeur de la fenêtre */
+  margin: 2em auto 2em;
+  border: 10px solid #F0F0FF;
+  overflow: hidden;                     /* masque tout ce qui dépasse */
+  box-shadow: 0 .25em .5em #CCC,inset 0 0 1em .25em #CCC;
+}
+/* le bloc défilant */
+.marquee-rtl > :first-child {
+  display: inline-block;                /* modèle de boîte en ligne */
+  padding-right: 2em;                   /* un peu d'espace pour la transition */
+  padding-left: 100%;                   /* placement à droite du conteneur */
+  white-space: nowrap;                  /* pas de passage à la ligne */
+  animation: defilement-rtl 15s infinite linear;
+}
+@keyframes defilement-rtl {
+  0% {
+    transform: translate3d(0,0,0);      /* position initiale à droite */
+  }
+  100% {
+    transform: translate3d(-100%,0,0);  /* position finale à gauche */
+  }
+}
+#screen{
+	max-width: 30em;                      /* largeur de la fenêtre */
+	margin: 2em auto 2em;
+	border: 10px solid #F0F0FF;
+	overflow: hidden;                     /* masque tout ce qui dépasse */
+	box-shadow: 0 .25em .5em #CCC,inset 0 0 1em .25em #CCC;
+
+}
+/* container1 */
+.container-fluid1{
+	background-color: #2F2F3A;
+}
+.performanceMode{
+	color: white;
+}
+.buttonDesactived{
+	box-shadow: 2px 5px 2px 1px grey;
+	background-color: #1C1D1E;
+	color: white;
+	margin-top: -15px;
+
+}
+/* Permet de ne plus afficher les boutons lorsqu'on passe sur la version mobile */
+@media all and (max-device-width: 767px)
+{
+    .buttonDesactived{
+			display:none;
+		}
+}
+/* Fin container1 */
