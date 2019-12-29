@@ -13,19 +13,30 @@
 <div class="container-fluid generalContainer">
   <!-- Container gauche -->
   <div class="container-fluid leftContainer">
-    <div class="row align-content-end">
+    <div class="row col-10 justify-content-center">
+      <div class="containerscreen mt-5">
+      <div id="screen">
+      <div class="marquee-rtl">
+      <!-- le contenu défilant -->
+      <div>Bonjour, bienvenue sur mon curriculum vitae.Appuyer sur les bouttons en suivant l'ordre des chiffres</div>
+    </div>
+    </div>
+    <p class="nameControlPad">MPD226</p>
+  </div>
+    <div class="containerdestests">
     <div class="containertest7">
   <p class="customBank">BANK/DECK</p>
 </div>
 <div class="containertest8">
-  <div button type="button" class="btn btn-dark mr-1 buttonDesactivedLeft" disabled>1..</button></div>
-  <div class="customButtonLeftContainer mb-5 mr-1 ">SAMPLER</div>
-  <div button type="button" class="btn btn-dark mr-1 buttonDesactivedLeft" disabled>2</button></div>
-    <div class="customButtonLeftContainer  mb-5 ">SLICE</div>
-  <div button type="button" class="btn btn-dark mr-1 buttonDesactivedLeft" disabled>3</button></div>
-    <div class="customButtonLeftContainer mb-5">CUE</div>
-  <div button type="button" class="btn btn-dark mr-1 buttonDesactivedLeft" disabled>4</button></div>
-  <div class="customButtonLeftContainer mb-5">HOT</div>
+  <div button type="button" class="btn btn-dark btn-lg mr-1 buttonDesactivedLeft" disabled>1..</button></div>
+  <div class="customButtonLeftContainer mb-3">SAMPLER</div>
+  <div button type="button" class="btn btn-dark btn-lg mr-1 buttonDesactivedLeft" disabled>2</button></div>
+    <div class="customButtonLeftContainer mb-3">SLICE</div>
+  <div button type="button" class="btn btn-dark btn-lg mr-1 buttonDesactivedLeft" disabled>3</button></div>
+    <div class="customButtonLeftContainer mb-3">CUE</div>
+  <div button type="button" class="btn btn-dark btn-lg mr-1 buttonDesactivedLeft" disabled>4</button></div>
+  <div class="customButtonLeftContainer mb-3">HOT</div>
+</div>
 </div>
 </div>
   </div>
@@ -37,11 +48,11 @@
         <p class="performanceMode">PERFORMANCE MODE</p>
       </div>
       <div class="row justify-content-center">
-          <div button type="button" class="btn btn-dark col-md-2 mr-2 mb-3 buttonDesactived" disabled>SAMPLER</button></div>
-          <div button type="button" class="btn btn-dark col-md-2 mr-2 mb-3 buttonDesactived" disabled>SLICER</button></div>
-          <div button type="button" class="btn btn-dark col-md-2 mr-2 mb-3 buttonDesactived" disabled>HOT CUE</button></div>
-          <div button type="button" class="btn btn-dark col-md-2 mr-2 mb-3 buttonDesactived" disabled>HOT LOOP</button></div>
-          <div button type="button" class="btn btn-dark col-md-2 mr-2 mb-3 buttonDesactived" disabled>FLIP</button></div>
+          <div button type="button" class="btn btn-dark btn-lg col-md-2 mr-2 mb-3 buttonDesactived" disabled>SAMPLER</button></div>
+          <div button type="button" class="btn btn-dark btn-lg col-md-2 mr-2 mb-3 buttonDesactived" disabled>SLICER</button></div>
+          <div button type="button" class="btn btn-dark btn-lg col-md-2 mr-2 mb-3 buttonDesactived" disabled>HOT CUE</button></div>
+          <div button type="button" class="btn btn-dark btn-lg col-md-2 mr-2 mb-3 buttonDesactived" disabled>HOT LOOP</button></div>
+          <div button type="button" class="btn btn-dark btn-lg col-md-2 mr-2 mb-3 buttonDesactived" disabled>FLIP</button></div>
       </div>
   <div class="row justify-content-center text-center">
             <div class="customButtonMiddleContainer col-md-2 mr-2 mb-2 ">SAMPLER</div>
@@ -57,7 +68,7 @@
     <div class="container-fluid1">
       <div class="row justify-content-center test">
         <!-- 1er bloc -->
-        <div class="col-3 pad padCustom2 mb-3 mt-3" type="button" class="btn btn-primary" data-toggle="modal" data-target="#padModal">1-Identité</div>
+        <div class="col-3 pad padCustom2 mb-3 mt-3" type="button" class="btn btn-primary" data-toggle="modal" data-target="#padModal"><span class="badge badge-dark">1</span></div>
         <!-- Modal -->
         <div class="modal fade" id="padModal">
           <div class="modal-dialog centered">
@@ -82,14 +93,14 @@
           </div>
           <!-- Fin 1er bloc -->
           <!-- Autres bloc mettre du contenu -->
-          <div class="col-3 pad padCustom1 mr-4 ml-4 mb-3 mt-3">2</div>
-          <div class="col-3 pad padCustom4  mb-3 mt-3">3</div>
-          <div class="col-3 pad padCustom5  mb-3 mt-3">4</div>
-          <div class="col-3 pad padCustom2 mr-4 ml-4 mb-3 mt-3">5</div>
-          <div class="col-3 pad padCustom1 mb-3 mt-3">6</div>
-          <div class="col-3 pad padCustom3 mb-3 mt-3">7</div>
-          <div class="col-3 pad padCustom4 mr-4 ml-4 mb-3 mt-3">8</div>
-          <div class="col-3 pad padCustom5 mb-3 mt-3">9</div>
+          <div class="col-3 pad padCustom1 mr-4 ml-4 mb-3 mt-3"><span class="badge badge-dark">2</span></div>
+          <div class="col-3 pad padCustom4 mb-3 mt-3"><span class="badge badge-dark">3</span></div>
+          <div class="col-3 pad padCustom5  mb-3 mt-3"><span class="badge badge-dark">4</span></div>
+          <div class="col-3 pad padCustom2 mr-4 ml-4 mb-3 mt-3"><span class="badge badge-dark">5</span></div>
+          <div class="col-3 pad padCustom1 mb-3 mt-3"><span class="badge badge-dark">6</span></div>
+          <div class="col-3 pad padCustom3 mb-3 mt-3"><span class="badge badge-dark">7</span></div>
+          <div class="col-3 pad padCustom4 mr-4 ml-4 mb-3 mt-3"><span class="badge badge-dark">8</span></div>
+          <div class="col-3 pad padCustom5 mb-3 mt-3"><span class="badge badge-dark">9</span></div>
 
         </div>
         <!-- Fin autres blocs -->
@@ -99,19 +110,18 @@
     </div>
     <!-- Début container droit -->
     <div class="container-fluid rightContainer">
-      <div class="row align-content-end">
+      <div class="row">
+        <div class="containertest18">
+          <div button type="button" class="btn btn-dark btn-lg buttonDesactivedRight" disabled>MOD</button></div>
+          <div class="customButtonLeftContainer mb-3">RELATIVE</div>
+          <div button type="button" class="btn btn-dark btn-lg buttonDesactivedRight" disabled>SLIP</button></div>
+            <div class="customButtonLeftContainer mb-3">INTERNAL</div>
+          <div button type="button" class="btn btn-dark btn-lg buttonDesactivedSync" disabled>SYNC</button></div>
+            <div class="customButtonLeftContainer mb-3">SYNC/OFF</div>
+          <div button type="button" class="btn btn-dark btn-lg mb-3 buttonDesactivedRight" disabled>SHIFT</button></div>
+        </div>
       <div class="containertest17">
-    <p class="customBank">SAMPLER/CONTROL</p>
-  </div>
-  <div class="containertest18">
-    <div button type="button" class="btn btn-dark mr-1 buttonDesactivedLeft" disabled>1..</button></div>
-    <div class="customButtonLeftContainer mb-5 mr-1 ">SAMPLER</div>
-    <div button type="button" class="btn btn-dark mr-1 buttonDesactivedLeft" disabled>2</button></div>
-      <div class="customButtonLeftContainer  mb-5 ">SLICE</div>
-    <div button type="button" class="btn btn-dark mr-1 buttonDesactivedLeft" disabled>3</button></div>
-      <div class="customButtonLeftContainer mb-5">CUE</div>
-    <div button type="button" class="btn btn-dark mr-1 buttonDesactivedLeft" disabled>4</button></div>
-    <div class="customButtonLeftContainer mb-5">HOT</div>
+    <p class="customBank2">SAMPLER/CONTROL</p>
   </div>
   </div>
 
