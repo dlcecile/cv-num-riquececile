@@ -9,41 +9,295 @@
   <title>cv-numérique</title>
 </head>
 <body>
-  <!-- Container générale -->
-  <!-- <div class="container-fluid generalContainer"> -->
-    <!-- Container left -->
-    <!-- <div class="container-fluid leftGcontainer test">
-    <div class="container-fluid containerLeft1 justify-content-center">
-      <div class="row flex-column align-items-center">
-        <div id="screen">
-        <div class="marquee-rtl"> -->
-        <!-- le contenu défilant -->
-        <!-- <div>Le message que l'on veut voir défilé horizontalement...</div>
+  <!-- Début container pad -->
+  <div class="container-fluid">
+    <div class="provisionPad">
+      <!-- 1er Pad -->
+      <div class="pad colorOnPad type="button" class="btn btn-primary" data-toggle="modal" data-target="#padModal1"">
+        <div class="content">
+          <span class="badge badge-dark"><i class="fa fa-user"></i>&nbspIdentity</span>
+        </div>
       </div>
-</div>
-<p class="nameControlPad">MPD226</p>
-</div>
-    </div> -->
-    <div class="container-fluid1">
-      <div class="row justify-content-center test">
-        <!-- 1er bloc -->
-        <div class="col-3 pad padCustom mb-3 mt-3" type="button" class="btn btn-primary" data-toggle="modal" data-target="#padModal">
-            <div class="content">hello</div>
+      <!-- Modal -->
+      <div class="modal fade" id="padModal1">
+        <div class="modal-dialog modal-xl modal-md centered">
+          <div class="modal-content">
+            <div class="modal-header modaleButtonBackground">
+              <h5 class="text-black">DELEU Cécile</h5>
+              <!-- text-light couleur blanche du texte et modales titles permet de centrer le texte normalement -->
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <!-- <a class="btn mr-2" target="_blank" href="https://github.com/dlcecile" title="gitHub">
+              <i class="fa fa-github fa-4x" aria-hidden="true"></i></a> -->
+              <i class="fa fa-birthday-cake">&nbsp27 Décembre 1988</i>
+
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Deuxième Pad -->
+      <div class="pad colorOnPad padSpace type="button" class="btn btn-primary" data-toggle="modal" data-target="#padModal"">
+        <div class="content">
+          <span class="badge badge-dark"><i class="fa fa-camera"></i>&nbspPhoto</span>
+        </div>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="padModal">
+        <div class="modal-dialog modal-xl modal-md centered">
+          <div class="modal-content">
+            <div class="modal-header modaleButtonBackground">
+              <h5 class=" text-light">DELEU Cécile</h5>
+              <!-- text-light couleur blanche du texte et modales titles permet de centrer le tetxe normalement -->
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <a class="btn mr-2" target="_blank" href="https://github.com/dlcecile" title="gitHub">
+                <i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Troisième Pad -->
+        <div class="pad colorOnPad type="button" class="btn btn-primary" data-toggle="modal" data-target="#padModal3"">
+          <div class="content">
+            <span class="badge badge-dark"><i class="fa fa-comment"></i>&nbspHistory</span>
+          </div>
         </div>
         <!-- Modal -->
-        <div class="modal fade" id="padModal">
-          <div class="modal-dialog centered">
+        <div class="modal fade" id="padModal3">
+            <div class="modal-dialog modal-xl modal-md centered">
             <div class="modal-content">
               <div class="modal-header modaleButtonBackground">
-                <h5 class=" text-light">DELEU Cécile</h5>
-                <!-- text-light couleur blanche du texte et modales titles permet de centrer le texe normalement -->
+                <h5 class=" text-black">Ma petite histoire</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
               </div>
               <div class="modal-body">
-                <a class="btn mr-2" target="_blank" href="https://github.com/dlcecile" title="gitHub">
-                  <i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
+                <p class="history"> Passionnée par l'univers de l'informatique, je me suis lancée un défi, celui de devenir développeur Web/Web Mobile junior.</p>
+                <p> Après plusieurs années en tant que chargée d'évaluation de suivi pour des personnes en difficultés sociales et professionnelles, c'est en Septembre 2019, je suis entrée en formation professionnelle à l'école La MANUE à Amiens.</p>
+                <p>Afin d'étendre mon expérience et mes savoirs dans ce domaine je souhaite découvrir les acteurs dans ce domaine.</p>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Quatrième Pad -->
+        <div class="pad colorOnPad type="button" class="btn btn-primary" data-toggle="modal" data-target="#padModalDiploma"">
+          <div class="content">
+            <span class="badge badge-dark"><i class="fa fa-graduation-cap"></i>&nbspDiploma</span>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="padModalDiploma">
+          <div class="modal-dialog modal-xl modal-md centered">
+            <div class="modal-content">
+              <div class="modal-header modaleButtonBackground">
+                <h5 class=" text-black">Mes diplômes</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body modalBodyDiploma">
+                <p class="customDiploma">2019-2020: Formation de développeur Web/Web Mobile de 805H au sein de l'école la Manue à Amiens.</p>
+                <p class="customDiploma">2011-2013: DEUG de droit au sein de l'UPJV de droit à Amiens</p>
+                <p class="customDiploma">2007-2008: Baccalauréat Scientifique au sein du Lycée de l'Authie à Doullens</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Cinquième Pad -->
+        <div class="pad colorOnPad padSpace type="button" class="btn btn-primary" data-toggle="modal" data-target="#padModalExperience"">
+          <div class="content">
+            <span class="badge badge-dark"><i class="fa fa-briefcase"></i>&nbspExpérience</span>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="padModalExperience" tabindex="-1" role="dialog" aria-labelledby="padModalExperience" aria-hidden="true">
+          <div class="modal-dialog modal-xl modal-md centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class=" text-black">Mes expériences professionnelles</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body modalBodyExperience">
+
+  <div class="timeline">
+    <div class="containerTimeline rightTimeline">
+      <div class="contentTimeline">
+        <h2>2018</h2>
+        <h3>Du 15/05/2018 au 14/05/2019 </h3>
+        <p>Référente RSA et animatrice en insertion sociale et professionnelle, Foyer des jeunes et d'éducation popuplaire à Pas-en-Artois.</p>
+      </div>
+    </div>
+    <div class="containerTimeline leftTimeline">
+      <div class="contentTimeline">
+        <h2>2018</h2>
+        <h3>Du 01/01/2018 au 31/05/2018</h3>
+        <p>Chargée de suivi et d'évaluation, Artois Technique Service à Warlincourt-Lès-Pas</p>
+      </div>
+    </div>
+    <div class="containerTimeline rightTimeline">
+      <div class="contentTimeline">
+        <h2>2016</h2>
+        <h3>Du 01/04/2016 au 30/09/2019</h3>
+        <p>Conseillère au service formation, Pôle Emploi, à Amiens</p>
+      </div>
+    </div>
+    <div class="containerTimeline leftTimeline">
+      <div class="contentTimeline">
+        <h2>2015</h2>
+        <h3>Du 22/06/2015 au 11/12/2015</h3>
+        <p>Agente Administrative à la Caisse d'Allocation Familiales de la Somme, à Amiens</p>
+      </div>
+    </div>
+    <div class="containerTimeline rightTimeline">
+      <div class="contentTimeline">
+        <h2>2014</h2>
+        <h3>Du 01/07/2014 au 31/07/2014</h3>
+        <p>Télèconseillère EDF, à Coriolis, à Amiens</p>
+      </div>
+    </div>
+    <div class="containerTimeline leftTimeline">
+      <div class="contentTimeline">
+        <h2>2013</h2>
+        <p>Stage au sein de «L'Association  d'aide  aux  personnes populaires», à Saint Laurent Blangy.</p>
+      </div>
+    </div>
+  </div>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Sixième Pad -->
+        <div class="pad colorOnPad type="button" class="btn btn-primary" data-toggle="modal" data-target="#padModalskills"">
+          <div class="content">
+            <span class="badge badge-dark"><i class="fa fa-cogs"></i>&nbspSkills</span>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="padModalskills">
+          <div class="modal-dialog modal-xl modal-md centered">
+            <div class="modal-content">
+              <div class="modal-header modaleButtonBackground">
+                <h5 class=" text-black">Mes compétences</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <!-- Mettre les barres de progressions -->
+
+              <!-- FIn modal-body -->
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Septième Pad -->
+        <div class="pad colorOnPad type="button" class="btn btn-primary" data-toggle="modal" data-target="#padModalHobbies"">
+          <div class="content">
+            <span class="badge badge-dark"><i class="fa fa-plane"></i>&nbspHobbies</span>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="padModalHobbies">
+          <div class="modal-dialog modal-xl modal-md centered">
+            <div class="modal-content">
+              <div class="modal-header modaleButtonBackground">
+                <h5 class=" text-black">Mes passions</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img src="assets/img/voyage.png" alt="travel" id="travel">
+                <img src="assets/img/poker.png" alt="poker" id="poker">
+                <img src="assets/img/musique.png" alt="musique" id="song">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Huitième Pad -->
+        <div class="pad colorOnPad padSpace  type="button" class="btn btn-primary" data-toggle="modal" data-target="#padModalPortefolio"">
+          <div class="content">
+            <span class="badge badge-dark"><i class="fa fa-floppy-o"></i>&nbspPortefolio</span>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="padModalPortefolio">
+          <div class="modal-dialog modal-xl modal-md centered">
+            <div class="modal-content">
+              <div class="modal-header modaleButtonBackground">
+                <h5 class=" text-black">Mes projets</h5>
+
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body rowCard">
+                <!-- 1er projet -->
+                <div class="card col-3-lg" style="width: 18rem;">
+  <img class="card-img-top" src="assets/img/sw.png" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Startup Weekend</h5>
+    <p class="card-text">En reprenant un site vitrine existant, il a fallu le rendre responsive, l'objectif était de penser ergonomie. Utilisation du HTML5, CSS3 er de Bootstap4 </p>
+    <a href="https://la-manu-amiens-promo-3.github.io/Bootstrap-StartUpWeekEnd/" class="btn btn-primary">Aperçu</a>
+  </div>
+</div>
+<!-- Deuxième projet -->
+<div class="card col-3-lg ml-1 mr-1" style="width: 18rem;">
+<img class="card-img-top" src="assets/img/kocc.png" alt="Card image cap">
+<div class="card-body">
+<h5 class="card-title">Kingdom Of Christmas</h5>
+<p class="card-text">Créer un site de e-commerce avec un panier fonctionnel. Utilisation du Javascript et de sa librairie Jquery, du HTML5, CSS3 et de Boostrap4</p>
+<a href="https://la-manu-amiens-promo-3.github.io/eCommerce---Kingdom-of-Christmas/" class="btn btn-primary">Aperçu</a>
+</div>
+</div>
+<!-- Troisième projet -->
+<div class="card col-3-lg" style="width: 18rem;">
+<img class="card-img-top" src="..." alt="Card image cap">
+<div class="card-body">
+<h5 class="card-title">Card title</h5>
+<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+<a href="#" class="btn btn-primary">Go somewhere</a>
+</div>
+</div>
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -52,38 +306,51 @@
               </div>
             </div>
           </div>
-          <!-- Fin 1er bloc -->
-          <!-- Autres bloc mettre du contenu -->
-          <div class="col-3 pad padCustom mr-4 ml-4 mb-3 mt-3"><span class="badge badge-light">2</span></div>
-          <div class="col-3 pad padCustom mb-3 mt-3">3</div>
-          <div class="col-3 pad padCustom mb-3 mt-3">4</div>
-          <div class="col-3 pad padCustom mr-4 ml-4 mb-3 mt-3">5</div>
-          <div class="col-3 pad padCustom mb-3 mt-3">6</div>
-          <div class="col-3 pad padCustom mb-3 mt-3">7</div>
-          <div class="col-3 pad padCustom mr-4 ml-4 mb-3 mt-3">8</div>
-          <div class="col-3 pad padCustom mb-3 mt-3">9</div>
-
-        </div>
-        <!-- Fin autres blocs -->
-        <!-- Fin container2 -->
-      </div>
-      <!-- Fin container générale du milieu -->
-    </div>
-<!-- fin container générale left -->
-</div>
-  <!-- container right -->
-  <!-- <div class="container-fluid containerRight">
-  </div> -->
-
-  <!--Fin container générale  -->
-  </div>
-
-
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+          <!-- Neuvième Pad -->
+          <div class="pad colorOnPad  type="button" class="btn btn-primary" data-toggle="modal" data-target="#padModalContact"">
+            <div class="content">
+              <span class="badge badge-dark"><i class="fa fa-envelope-o"></i>&nbspContact</span>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="padModalContact">
+            <div class="modal-dialog modal-xl modal-md centered">
+              <div class="modal-content">
+                <div class="modal-header modaleButtonBackground">
+                  <h5 class=" text-black">Me contacter</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <a class="btn mr-2" target="_blank" href="https://github.com/dlcecile" title="gitHub">
+                    <i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+                    <a class="btn mr-2" target="_blank" href="mailto:deleucecile@outlook.fr">
+                      <i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a>
+                      <a class="btn mr-2" target="_blank" href="https://www.linkedin.com/in/cecile-deleu-a4065b13b/">
+                        <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+                        <a class="btn mr-2" target="_blank" href="https://twitter.com/Deleu80124714">
+                          <i class="fa fa-twitter fa-3x"></i></a>
 
 
-  </body>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- FIn des pads -->
+                </div>
+              </div>
+              <!-- Fin du container pad -->
 
-  </html>
+              <script src="assets/js/jquery.js"></script>
+              <script src="assets/js/script.js"></script>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+              <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+            </body>
+
+            </html>
