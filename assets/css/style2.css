@@ -54,6 +54,7 @@ font-family: 'Anonymous Pro', monospace;
 }
 .content{
 		overflow: hidden;
+    padding-left: 0px;
 }
 @media screen and (max-width: 768px) {
   .colorOnPad {
@@ -68,6 +69,8 @@ font-family: 'Anonymous Pro', monospace;
 /* Design des badges */
 .badge{
   font-size: 1.8vh;
+  padding-left: 0px;
+
 }
 @media screen and (max-width: 1300px){
   .badge{
