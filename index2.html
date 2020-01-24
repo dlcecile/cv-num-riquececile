@@ -9,17 +9,40 @@
   <title>cv-numérique</title>
 </head>
 <body>
+  <!-- Container générale au milieu-->
+  <div class="container-fluid middel_container">
+    <!-- Container faux boutons-->
+    <div class="container_performance">
+      <div class="row justify-content-center">
+        <p class="performanceMode">PERFORMANCE MODE</p>
+      </div>
+      <div class="row justify-content-center">
+          <button type="button" class="btn btn-lg col-md-2 mr-2 mb-3 buttonDesactived" disabled>SAMPLER</button>
+          <button type="button" class="btn btn-lg col-md-2 mr-2 mb-3 buttonDesactived" disabled>SLICER</button>
+          <button type="button" class="btn btn-lg col-md-2 mr-2 mb-3 buttonDesactived" disabled>HOT CUE</button>
+          <button type="button" class="btn btn-lg col-md-2 mr-2 mb-3 buttonDesactived" disabled>HOT LOOP</button>
+          <button type="button" class="btn btn-lg col-md-2 mr-2 mb-3 buttonDesactived" disabled>FLIP</button>
+      </div>
+  <div class="row justify-content-center text-center">
+            <p class="customButtonMiddleContainer col-md-2 mr-2 mb-2 ">SAMPLER</p>
+            <p class="customButtonMiddleContainer col-md-2 mr-2 mb-2 ">PAD FX</p>
+            <p class="customButtonMiddleContainer col-md-2 mr-2 mb-2 ">LOPPER SLICER</p>
+            <p class="customButtonMiddleContainer col-md-2 mr-2 mb-2 ">FLIP</p>
+            <p class="customButtonMiddleContainer col-md-2 mr-2 mb-2 ">MANUEL LOOPER</p>
+      </div>
+      <hr>
+    </div>
   <!-- Début container pad -->
-  <div class="container-fluid">
-    <div class="provisionPad">
+
+  <div class="container_pad">
       <!-- 1er Pad -->
-      <div class="pad colorOnPad type="button" class="btn btn-primary" data-toggle="modal" data-target="#padModal1"">
+      <div class="pad colorOnPad type="button" class="btn btn-primary" data-toggle="modal" data-target="#padModalIdentity"">
         <div class="content">
           <span class="badge badge-dark"><i class="fa fa-user"></i>&nbspIdentity</span>
         </div>
       </div>
       <!-- Modal -->
-      <div class="modal fade" id="padModal1">
+      <div class="modal fade" id="padModalIdentity">
         <div class="modal-dialog modal-xl modal-md centered">
           <div class="modal-content">
             <div class="modal-header modaleButtonBackground">
@@ -30,43 +53,45 @@
               </button>
             </div>
             <div class="modal-body">
-              <!-- <a class="btn mr-2" target="_blank" href="https://github.com/dlcecile" title="gitHub">
-              <i class="fa fa-github fa-4x" aria-hidden="true"></i></a> -->
-              <i class="fa fa-birthday-cake">&nbsp27 Décembre 1988</i>
-
-
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+            <p>Je suis née le 27 Décembre 1988</p>
             </div>
           </div>
         </div>
       </div>
       <!-- Deuxième Pad -->
-      <div class="pad colorOnPad padSpace type="button" class="btn btn-primary" data-toggle="modal" data-target="#padModal"">
+      <div class="pad colorOnPad padSpace type="button" class="btn btn-primary" data-toggle="modal" data-target="#padModalQualities"">
         <div class="content">
-          <span class="badge badge-dark"><i class="fa fa-camera"></i>&nbspPhoto</span>
+          <span class="badge badge-dark"><i class="fa fa-balance-scale"></i>&nbspQualities</span>
         </div>
       </div>
       <!-- Modal -->
-      <div class="modal fade" id="padModal">
+      <div class="modal fade" id="padModalQualities">
         <div class="modal-dialog modal-xl modal-md centered">
           <div class="modal-content">
             <div class="modal-header modaleButtonBackground">
-              <h5 class=" text-light">DELEU Cécile</h5>
+              <h5 class=" text-light">Mes qualités</h5>
               <!-- text-light couleur blanche du texte et modales titles permet de centrer le tetxe normalement -->
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-              <a class="btn mr-2" target="_blank" href="https://github.com/dlcecile" title="gitHub">
-                <i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+              <p>Relationnelle</p>
+  <div class="containerSkillsPersonal">
+    <div class="skills Relationship ">90%</div>
+  </div>
+  <p>Esprit d'équipe</p>
+<div class="containerSkillsPersonal">
+<div class="skills TeamSiprit">90%</div>
+</div>
+<p>Gestion du temps et du stress</p>
+<div class="containerSkillsPersonal">
+<div class="skills TimeAndStress">85%</div>
+</div>
+<p>Polyvalence</p>
+<div class="containerSkillsPersonal">
+<div class="skills Multipurpose">90%</div>
+</div>
               </div>
             </div>
           </div>
@@ -92,10 +117,6 @@
                 <p> Après plusieurs années en tant que chargée d'évaluation de suivi pour des personnes en difficultés sociales et professionnelles, c'est en Septembre 2019, je suis entrée en formation professionnelle à l'école La MANUE à Amiens.</p>
                 <p>Afin d'étendre mon expérience et mes savoirs dans ce domaine je souhaite découvrir les acteurs dans ce domaine.</p>
 
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
               </div>
             </div>
           </div>
@@ -188,11 +209,6 @@
       </div>
     </div>
   </div>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
               </div>
             </div>
           </div>
@@ -218,10 +234,6 @@
 
               <!-- FIn modal-body -->
               </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-              </div>
             </div>
           </div>
         </div>
@@ -241,14 +253,16 @@
                   <span aria-hidden="true">&times;</span>
                 </button>
               </div>
-              <div class="modal-body">
-                <img src="assets/img/voyage.png" alt="travel" id="travel">
-                <img src="assets/img/poker.png" alt="poker" id="poker">
-                <img src="assets/img/musique.png" alt="musique" id="song">
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+              <div class="modal-body ModalBodyHobbies">
+                <img src="assets/img/passport.png" alt="travel" id="travel" data-toggle="tooltip"
+        data-placement="right" title="Les voyages">
+                <img src="assets/img/poker.png" alt="poker" id="poker" data-toggle="tooltip"
+        data-placement="right" title="Le poker">
+                <img src="assets/img/sampler.png" alt="song" id="song" data-toggle="tooltip"
+        data-placement="right" title="La musique">
+                  <img src="assets/img/waterpolo.png" alt="water" id="water" data-toggle="tooltip"
+        data-placement="right" title="Le waterpolo">
+        <p> Je vous livre un aperçu de mes passions. Passions qui ont forgées les aspects intraséques de ma personnalité</p>
               </div>
             </div>
           </div>
@@ -282,7 +296,7 @@
 </div>
 <!-- Deuxième projet -->
 <div class="card col-3-lg ml-1 mr-1" style="width: 18rem;">
-<img class="card-img-top" src="assets/img/kocc.png" alt="Card image cap">
+<img class="card-img-top" src="assets/img/okking.png" alt="Card image cap">
 <div class="card-body">
 <h5 class="card-title">Kingdom Of Christmas</h5>
 <p class="card-text">Créer un site de e-commerce avec un panier fonctionnel. Utilisation du Javascript et de sa librairie Jquery, du HTML5, CSS3 et de Boostrap4</p>
@@ -298,10 +312,6 @@
 <a href="#" class="btn btn-primary">Go somewhere</a>
 </div>
 </div>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Save changes</button>
                 </div>
               </div>
             </div>
@@ -331,21 +341,14 @@
                         <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
                         <a class="btn mr-2" target="_blank" href="https://twitter.com/Deleu80124714">
                           <i class="fa fa-twitter fa-3x"></i></a>
-
-
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn-primary">Save changes</button>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <!-- FIn des pads -->
-                </div>
+                  <!-- Fin des pads -->
               </div>
               <!-- Fin du container pad -->
-
+</div>
               <script src="assets/js/jquery.js"></script>
               <script src="assets/js/script.js"></script>
               <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

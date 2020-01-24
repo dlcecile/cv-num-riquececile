@@ -114,55 +114,7 @@ align-self: flex-end;
 	border: 1px solid black;
 	background-color: #2F2F3A;
 }
-.padCustom1{
-    border: 1px solid #029F98;
-    color:black;
-		border-radius:5px;
-		box-shadow: 6px 9px 1px 2px #029F98;
-		background-color: #029F98;
-		background: radial-gradient(white,#029F98);
-}
-.padCustom2{
-    border: 1px solid #FF03F6;
-    color:black;
-		border-radius:5px;
-		box-shadow: 6px 9px 1px 2px #FF03F6;
-		background-color: #FF03F6;
-		background: radial-gradient(white, #FF03F6);
-}
-.padCustom3{
-    border: 1px solid #542F8C;
-    color:black;
-		border-radius:5px;
-	  box-shadow: 6px 9px 1px 2px #542F8C;
-		background-color: #542F8C;
-		background: radial-gradient(white, #542F8C);
-}
-.padCustom4{
-    border: 1px solid #EAC700;
-    color:black;
-		border-radius:5px;
-		box-shadow: 6px 9px 1px 2px #EAC700;
-		background-color: #EAC700;
-	  background: radial-gradient(white, #EAC700);
-}
-.padCustom5{
-    border: 1px solid #D02A58;
-    color:black;
-		border-radius:5px;
-		box-shadow: 6px 9px 1px 2px #D02A58;
-		background-color: #D02A58;
-		background: radial-gradient(white, #D02A58);
-}
-/* Faire un media queries pour le border shadow diminuer la taille */
-.pad{
-	position: relative;
-	width: 50%;
-}
-	.pad:after {
-		content: '';
-		display: block;
-		padding-bottom: 100%;
+
 	}
 	/* Fin Custompad */
 	/* Début entetedupad */
@@ -200,7 +152,7 @@ align-self: flex-end;
   width:100px;
   background: #ffffff;
   content:"";
-	
+
 }
 
 /* Container droit */
