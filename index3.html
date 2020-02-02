@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+  <title>cv-numérique</title>
+</head>
+<body>
+  <!-- Container générale -->
+<div class="container-fluid generalContainer">
+  <!-- Container gauche -->
+  <div class="container-fluid leftContainer">
+    <div class="row col-10 justify-content-center">
+      <div class="containerscreen mt-5">
+      <div id="screen">
+      <div class="marquee-rtl">
+      <!-- le contenu défilant -->
+        <div>Bonjour, bienvenue sur mon curriculum vitae.</div>
+    </div>
+    </div>
+    <img src="assets/img/mpd226.png" id="titleControlPad" alt="titleControleurPad">
+  </div>
+    <div class="containerdestests">
+    <div class="containertest7">
+  <p class="customBank">BANK/DECK</p>
+</div>
+<div class="containertest8">
+  <button type="button" class="btn btn-dark btn-lg mr-1 buttonDesactivedLeft" disabled>1..</button>
+  <p class="customButtonLeftContainer mb-3">SAMPLER</p>
+  <button type="button" class="btn btn-dark btn-lg mr-1 buttonDesactivedLeft" disabled>2</button>
+    <p class="customButtonLeftContainer mb-3">SLICE</p>
+  <button type="button" class="btn btn-dark btn-lg mr-1 buttonDesactivedLeft" disabled>3</button>
+    <p class="customButtonLeftContainer mb-3">CUE</p>
+  <button type="button" class="btn btn-dark btn-lg mr-1 buttonDesactivedLeft" disabled>4</button>
+  <p class="customButtonLeftContainer mb-3">HOT</p>
+</div>
+</div>
+</div>
+  </div>
+  <!-- Container générale au milieu-->
+  <div class="container-fluid middelContainer">
+    <!-- Container faux boutons-->
+    <div class="container-fluid2">
+      <div class="row justify-content-center">
+        <p class="performanceMode">PERFORMANCE MODE</p>
+      </div>
+      <div class="row justify-content-center">
+          <button type="button" class="btn btn-dark btn-lg col-md-2 mr-2 mb-3 buttonDesactived" disabled>SAMPLER</button>
+          <button type="button" class="btn btn-dark btn-lg col-md-2 mr-2 mb-3 buttonDesactived" disabled>SLICER</button>
+          <button type="button" class="btn btn-dark btn-lg col-md-2 mr-2 mb-3 buttonDesactived" disabled>HOT CUE</button>
+          <button type="button" class="btn btn-dark btn-lg col-md-2 mr-2 mb-3 buttonDesactived" disabled>HOT LOOP</button>
+          <button type="button" class="btn btn-dark btn-lg col-md-2 mr-2 mb-3 buttonDesactived" disabled>FLIP</button>
+      </div>
+  <div class="row justify-content-center text-center">
+            <p class="customButtonMiddleContainer col-md-2 mr-2 mb-2 ">SAMPLER</p>
+            <p class="customButtonMiddleContainer col-md-2 mr-2 mb-2 ">PAD FX</p>
+            <p class="customButtonMiddleContainer col-md-2 mr-2 mb-2 ">LOPPER SLICER</p>
+            <p class="customButtonMiddleContainer col-md-2 mr-2 mb-2 ">FLIP</p>
+            <p class="customButtonMiddleContainer col-md-2 mr-2 mb-2 ">MANUEL LOOPER</p>
+      </div>
+      <hr>
+      <!-- Fin container faux boutons-->
+    </div>
+    <!-- Début container pad -->
+    <div class="container-fluid1">
+      <div class="row justify-content-center test">
+        <!-- 1er bloc -->
+        <div class="col-3 pad padCustom2 mb-3 mt-3" type="button" class="btn btn-primary" data-toggle="modal" data-target="#padModal"><span class="badge badge-dark">Identité</span></div>
+        <!-- Modal -->
+        <div class="modal fade" id="padModal">
+          <div class="modal-dialog centered">
+            <div class="modal-content">
+              <div class="modal-header modaleButtonBackground">
+                <h5 class=" text-light">DELEU Cécile</h5>
+                <!-- text-light couleur blanche du texte et modales titles permet de centrer le tetxe normalement -->
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <a class="btn mr-2" target="_blank" href="https://github.com/dlcecile" title="gitHub">
+                  <i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Fin 1er bloc -->
+          <!-- Autres bloc mettre du contenu -->
+          <div class="col-3 pad padCustom1 mr-4 ml-4 mb-3 mt-3"><span class="badge badge-dark">Identité</span></div>
+          <div class="col-3 pad padCustom4 mb-3 mt-3"><span class="badge badge-dark">3</span></div>
+          <div class="col-3 pad padCustom5  mb-3 mt-3"><span class="badge badge-dark">4</span></div>
+          <div class="col-3 pad padCustom2 mr-4 ml-4 mb-3 mt-3"><span class="badge badge-dark">5</span></div>
+          <div class="col-3 pad padCustom1 mb-3 mt-3"><span class="badge badge-dark">Compétences</span></div>
+          <div class="col-3 pad padCustom3 mb-3 mt-3"><span class="badge badge-dark">7</span></div>
+          <div class="col-3 pad padCustom4 mr-4 ml-4 mb-3 mt-3"><span class="badge badge-dark">8</span></div>
+          <div class="col-3 pad padCustom5 mb-3 mt-3"><span class="badge badge-dark">9</span></div>
+
+        </div>
+        <!-- Fin autres blocs -->
+        <!-- Fin container2 -->
+      </div>
+      <!-- Fin container générale du milieu -->
+    </div>
+    <!-- Début container droit -->
+    <div class="container-fluid rightContainer">
+      <div class="row justify-content-center">
+          <p class="brandControlPad">ATOM</p>
+        <div class="containerdestest2">
+        <div class="containertest18">
+          <button type="button" class="btn btn-dark btn-lg buttonDesactivedRight" disabled>MOD</button>
+          <p class="customButtonLeftContainer mb-3">RELATIVE</p>
+          <button type="button" class="btn btn-dark btn-lg buttonDesactivedRight" disabled>SLIP</button>
+            <p class="customButtonLeftContainer mb-3">INTERNAL</p>
+          <button type="button" class="btn btn-dark btn-lg buttonDesactivedSync" disabled>SYNC</button>
+            <p class="customButtonLeftContainer mb-3">SYNC/OFF</p>
+          <button type="button" class="btn btn-dark btn-lg mb-3 buttonDesactivedRight" disabled>SHIFT</button>
+        </div>
+      <div class="containertest17">
+    <p class="customBank2">SAMPLER/CONTROL</p>
+  </div>
+  </div>
+</div>
+
+    </div>
+    <!-- Fin container générale -->
+  </div>
+
+
+
+
+<!-- <footer>
+<a class="btn mr-2" target="_blank" href="https://github.com/dlcecile" title="gitHub">
+<i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
+</footer> -->
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

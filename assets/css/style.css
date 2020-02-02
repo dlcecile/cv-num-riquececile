@@ -1,189 +1,489 @@
-
-.containertest7{
-border:3px solid grey;
-padding-left: 10px;
-display: flex;
-justify-content: flex-end;
-align-items: center;
+@import url('https://fonts.googleapis.com/css?family=VT323&display=swap');
+*{
+font-family: 'Anonymous Pro', monospace;
 }
-.containertest8{
-	border:3px solid pink;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+/* container du milieu */
+.middle_container{
+  background-color: #280A0C;
+  padding-left: 0px;
+  padding-right:0px;
 }
-/* container général */
-.generalContainer{
-	border:4px solid green;
+.fa{
+  padding-right:5px;
+}
+/* Container */
+.container_pad{
 	display: flex;
 	flex-direction: row;
-	background-color: #2F2F3A;
-	box-shadow: 15px 15px 1px black;
+	flex-wrap: wrap;
+	justify-content: center;
+  padding-left: 0px;
+  padding-right:0px;
 }
-/* Container gauche */
-.leftContainer{
-border: 8px solid purple;
-width: 25%;
-display: flex;
-flex-direction: row;
-justify-content: center;
-
+/* responsive pad */
+.pad {
+  position: relative;
+  border:1px solid red;
+  width: 25%;
+	margin-bottom:20px;
 }
-.containerscreen{
-	border:4px solid green;
-	max-height:170px;
+.padSpace{
+	margin-left: 10px;
+	margin-right: 10px;
 }
-.containerdestests{
-	border:6px solid orange;
-display: flex;
-flex-direction: row;
-align-self: flex-end;
-/* Aligne en bas le container */
-/* Pour que le container soit aligner au milieu justify-content-center dans la row */
+/* Media queries pour la largueur des pads */
+@media screen and (max-width: 1300px){
+  .pad{
+      width: 31%;
+      margin-bottom: 13px;
+  }
 }
-.customBank{
-	writing-mode: vertical-rl;
-	text-orientation: mixed;
-	font-size: 35px;
+.pad::after {
+  content: '';
+  display: block;
+  padding-bottom: 100%;
+}
+.pad .content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+/* Design des pads */
+.colorOnPad{
+	border: 1px solid #E7E8F4;
 	color:black;
+	border-radius:5px;
+	box-shadow: 0px 10px 1px 2px #676767;
+	background-color: #E7E8F4;
+	background: radial-gradient(white,#E7E8F4);
 }
-
-.customButtonLeftContainer{
-	border: 1px solid black;
-	text-align: center;
-	background-color: grey;
+.content{
+		overflow: hidden;
 }
-.buttonDesactivedLeft, .buttonDesactivedRight{
- box-shadow: 1px 4px 8px red;
- 	border:2px solid red;
- margin-bottom: 7px;
-}
-.buttonDesactivedSync{
-	box-shadow: 1px 4px 8px green;
-	border:2px solid green;
-  margin-bottom: 7px;
-}
-/* Pour l'écran */
-.marquee-rtl {
-  max-width: 20em;                     /* largeur de la fenêtre */
-  margin: 2em auto 2em;
-  overflow: hidden;                     /* masque tout ce qui dépasse */
-}
-/* le bloc défilant */
-.marquee-rtl > :first-child {
-  display: inline-block;                /* modèle de boîte en ligne */
-  padding-right: 2em;                   /* un peu d'espace pour la transition */
-  padding-left: 100%;                   /* placement à droite du conteneur */
-  white-space: nowrap;                  /* pas de passage à la ligne */
-  animation: defilement-rtl 15s infinite linear;
-	color:white;
-	font-weight:lighter;
-	font-size: 20px;
-
-}
-@keyframes defilement-rtl {
-  0% {
-    transform: translate3d(0,0,0);      /* position initiale à droite */
-  }
-  100% {
-    transform: translate3d(-100%,0,0);  /* position finale à gauche */
-  }
-}
-#screen{
-	max-width:20em;                      /* largeur de la fenêtre */
-	border: 1px solid black;
-	overflow: hidden;                     /* masque tout ce qui dépasse */
-	background-color: #0000FE;
-	box-shadow: inset 0 0 1em white, 0 0 1em black;
-}
-#titleControlPad{
-	width: 100%;
-}
-
-/* fin container gauche */
-/* container général milieu */
-.middelContainer{
-	border: 6px solid red;
-}
-/* Fin container général */
-/* Début container1 */
-.container-fluid1{
-}
-/* Custom pad */
-.test{
-	border: 1px solid black;
-	background-color: #2F2F3A;
-}
-
-	}
-	/* Fin Custompad */
-	/* Début entetedupad */
-	.padInfo{
-		color:white;
-	}
-	.buttonDesactived{
-		box-shadow: 1px 6px 6px red;
-		border:2px solid red;
-	}
-	/* fin entetedudupad */
-	.customButtonMiddleContainer{
-		font-size: 10px;
+@media screen and (max-width: 768px) {
+  .colorOnPad {
+		border: 1px solid #E7E8F4;
 		color:black;
-	}
-
-	/* Début modal */
-	.modaleButtonBackground {
-    background-color: #14354F;
+		border-radius:5px;
+		box-shadow: 0px 4px 1px 2px #676767;
+		background-color: #E7E8F4;
+		background: radial-gradient(white,#E7E8F4);
+  }
 }
-/* Fin modal */
-/*  */
-.container-fluid2{
+/* Design des badges */
+.badge{
+  font-size: 1.8vh;
+  padding-left: 0px;
 
+}
+@media screen and (max-width: 1300px){
+  .badge{
+    font-size: 1.3vh;
+  }
+}
+/* Modal identity */
+.bitmoji{
+  width: 100%;
+  height:auto;
+}
+.identity_body{
+  display: flex;
+  flex-direction: row-reverse;
+}
+/* Modal qualités */
+.containerSkillsPersonal, .containerComputer {
+  width: 100%;
+}
+.skills {
+  text-align: right;
+  color: white;
+}
+.legendSkillsPersonal, .legendComputerSkills{
+  border: 1px solid #ff9f55;
+  color: white;
+  font-size:2vh;
+  background-color:#ff9f55;
+}
+.customSkills{
+  text-align: center;
+  margin-top: 10px;
+}
+.Relationship {width: 90%; background-color: #001622;}
+.TimeAndStress {width: 80%; background-color: #001622;}
+.TeamSiprit {width: 90%; background-color: #001622;}
+.Multipurpose {width: 90%; background-color: #001622;}
+/* Fin modal qualités */
+/* modal experiences */
+.titleExperienceComputer{
+  font-size: 3vh;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.progressBarRow{
+display: flex;
+flex-direction: column;
+text-align: start;
+}
+.progressBar {
+	/* margin-bottom: 26px; */
+	margin-bottom: 1em;
+	position: relative;
+}
+.progressBar h4 {
+	font-size: 16px;
+	text-transform: none;
+	/* margin-bottom: 7px; */
+	margin-bottom: 0.33em;
+	color: black;
+}
+.progressBarcontainer {
+	width: 100%;
+	height: 10px;
+	background: #E1E1E1!important;
+	overflow: hidden;
+	border-radius: 0.3em;
+}
+.progressBarValue {
+	height: 10px;
+	float: left;
+	border-radius: 0.3em;
+	background: black;
+}
+.speech-bubble {
+	font-size: 0.75em;
+	line-height: 2em;
+	position: absolute;
+	top: -0.60em;
+	text-align: center;
+	min-width: 3em;
+	border-radius: 0.3em;
+	color: white;
+	display: none;
+}
+.speech-bubble:after {
+	border: 0.5em solid transparent;
+	content: "";
+	margin-left: -0.5em;
+	position: absolute;
+	bottom: -50%;
+	left: 50%;
+}
+.html {
+	left: calc(88.5% - 1.5em);
+}
+.javascript{
+	  left: calc(48.5% - 1.5em);
+}
+.php{
+	  left: calc(48.5% - 1.5em);
+}
+.sql{
+	left: calc(48.5% - 1.5em);
+}
+.jquery{
+	left: calc(58.5% - 1.5em);
+}
+.bootstrap4{
+	left: calc(88.5% - 1.5em);
+}
+.wordpress{
+	left: calc(88.5% - 1.5em);
+}
+.html,
+.javascript,
+.php,
+.sql,
+.jquery,
+.bootstrap4,
+.wordpress{
+	background: blue;
+}
+.html:after, .javascript:after, .sql:after, .php:after, .jquery:after, .bootstrap4:after, .wordpress:after {
+	border-top-color: blue;
+}
+/* fin modal experiences */
+/* Modal History */
+.modal-content{
+  border: 1px solid #E7E8F4;
+	color:black;
+	border-radius:5px;
+	box-shadow: 0px 10px 1px 2px #676767;
+	background-color: #E7E8F4;
+  background: linear-gradient(#E7E8F4, white);
+}
+.modal{
+  background-color:white;
+}
+/* tout la modal y compris les autres modals seront dans le style de la modal history */
+/* Modal Hobbies */
+#travel, #poker, #song, #water{
+  width: 10vh;
+  height:10vh;
+  margin: 5vh;
+}
+.ModalBodyHobbies{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+/* Fin Modal Hobbies */
+/* Modal Diploma */
+.modalBodyDiploma {
+  width: 300px;
+  margin: auto;
+}
+.customDiploma {
+  border-top: 2px dashed;
+  border-color: black !important;
+  margin:0; padding: 50px;
+}
+.customDiploma:nth-child(even) {
+  border-left: 2px dashed;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  margin-right: 40px;
+  padding-right: 0;
+}
+.customDiploma:nth-child(odd) {
+  border-right: 2px dashed;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  margin-left: 40px;
+  padding-left: 0;
+}
+.customDiploma:first-child {
+  border-top: 0;
+  border-top-right-radius:0;
+  border-top-left-radius:0;
+}
+.customDiploma:last-child {
+  border-bottom-right-radius:0;
+  border-bottom-left-radius:0;
+}
+.colorYearDiploma{
+  font-size: 3vh;
+  color:black;
+}
+.colorTravel{
+  font-size: 1.7vh;
+  color:#ff9f55;
+  font-weight:bold;
+}
+/* Fin modal diploma */
+/* Timeline */
+.timeline {
+  position: relative;
+  margin: 0 auto;
+}
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: black;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: 0px;
+}
+.containerTimeline {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+.containerTimeline::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -15px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+.leftTimeline {
+  left: 0;
+}
+.rightTimeline {
+  left: 50%;
+}
+.leftTimeline::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent #001622;
+}
+.rightTimeline::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #001622 transparent transparent;
+}
+.rightTimeline::after {
+  left: -9.5px;
+}
+.leftTimeline::after {
+  right: -15px;
+}
+.contentTimeline {
+  padding: 20px 30px;
+  background-color: #001622;
+  position: relative;
+  border-radius: 6px;
+  color:white;
+}
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+  left: 25px;
+  }
+  .containerTimeline {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  .containerTimeline::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  }
+  .leftTimeline::after, .rightTimeline::after {
+  left: 15px;
+  }
+  .rightTimeline {
+  left: 0%;
+  }
+}
+.customYear{
+  text-align: center;
+}
+.customDate{
+  font-size:1.5vh;
+  color:#ff9f55;
+}
+/* Fin de la timeline */
+/* Modal cards Portefolio */
+.rowCard{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card-img-top{
+  height: 300px;
+}
+.card-title{
+  color:#ff9f55;
+  font-size: 2vh;
+  font-weight: bold;
+}
+.useLanguage{
+  text-decoration: underline;
+  color:#ff9f55;
+}
+.card-text-top{
+  height: 300px;
+  background-color: black;
+  color: white;
+  font-size: 2vh;
+}
+.title_OYA{
+  margin-top: -15px;
+}
+/* Personnalisation des Modals */
+.modal-header{
+  background-image: url("../img/a.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+  height:22vh;
+}
+.titleModal{
+  color:white;
+  font-size: 3vh;
+}
+/* Personnalisation du header Performance */
+.buttonDesactived{
+  box-shadow: 1px 3px 6px red;
+   cursor: none;
+  border: 1mm ridge red;
+  color: white;
+  background: #343A40;
 }
 .performanceMode{
 	color:white;
 	margin-top:20px;
-
+  font-size: 5vh;
+  margin-left: 1vh;
+  margin-right: 1vh;
+}
+.performanceMode{
+	color:white;
+	margin-top:20px;
 }
 .performanceMode::before, .performanceMode::after {
   display:inline-block;
   vertical-align: middle;
   height:10px;
   width:100px;
-  background: #ffffff;
+  background: white;
   content:"";
-
 }
-
-/* Container droit */
-.rightContainer{
-border: 1px solid purple;
-width: 25%;
-display: flex;
-flex-direction: row;
-justify-content: center;
+.customButtonMiddleContainer{
+  color:white;
 }
-
-.containertest18{
-display: flex;
-flex-direction: column;
-/* Permet de mettre les boutons en colonnes et de la même taille */
-
+/* Media queries pour ne plus afficher le performance */
+@media screen and (max-width: 1300px){
+  .container_performance{
+      display:none;
+  }
 }
-.customBank2{
-		writing-mode: vertical-rl;
-		text-orientation: mixed;
-		font-size: 35px;
-		color:black;
+/* couleur pour le javascript */
+.color1{
+  border: 1px solid #D7849D;
+	color:black;
+	border-radius:5px;
+	box-shadow: 0px 10px 1px 2px #D7849D;
+	background-color: #D7849D;
+	background: radial-gradient(white,#D7849D);
 }
-.containerdestest2{
-	display: flex;
-	flex-direction: row;
-	align-self: flex-end;
+.color2{
+  border: 1px solid #78FECF;
+	color:black;
+	border-radius:5px;
+	box-shadow: 0px 10px 1px 2px #78FECF;
+	background-color: #78FECF;
+	background: radial-gradient(white, #78FECF);
 }
-.brandControlPad{
-	margin-top: 20px;
-	font-size:4em;
-	color:White;
-
+.color3{
+  border: 1px solid #71D9FF;
+	color:black;
+	border-radius:5px;
+	box-shadow: 0px 10px 1px 2px #71D9FF;
+	background-color: #71D9FF;
+	background: radial-gradient(white, #71D9FF);
+}
+.color4{
+  border: 1px solid #D8D890;
+	color:black;
+	border-radius:5px;
+	box-shadow: 0px 10px 1px 2px #D8D890;
+	background-color: #D8D890;
+	background: radial-gradient(white, #D8D890);
 }
