@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=VT323&display=swap');
 *{
-font-family: 'Anonymous Pro', monospace;
+  font-family: 'Anonymous Pro', monospace;
 }
 /* container du milieu */
 .middle_container{
@@ -13,10 +13,10 @@ font-family: 'Anonymous Pro', monospace;
 }
 /* Container */
 .container_pad{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   padding-left: 0px;
   padding-right:0px;
 }
@@ -25,17 +25,17 @@ font-family: 'Anonymous Pro', monospace;
   position: relative;
   border:1px solid red;
   width: 25%;
-	margin-bottom:20px;
+  margin-bottom:20px;
 }
 .padSpace{
-	margin-left: 10px;
-	margin-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 /* Media queries pour la largueur des pads */
 @media screen and (max-width: 1300px){
   .pad{
-      width: 31%;
-      margin-bottom: 13px;
+    width: 31%;
+    margin-bottom: 13px;
   }
 }
 .pad::after {
@@ -50,24 +50,24 @@ font-family: 'Anonymous Pro', monospace;
 }
 /* Design des pads */
 .colorOnPad{
-	border: 1px solid #E7E8F4;
-	color:black;
-	border-radius:5px;
-	box-shadow: 0px 10px 1px 2px #676767;
-	background-color: #E7E8F4;
-	background: radial-gradient(white,#E7E8F4);
+  border: 1px solid #E7E8F4;
+  color:black;
+  border-radius:5px;
+  box-shadow: 0px 10px 1px 2px #676767;
+  background-color: #E7E8F4;
+  background: radial-gradient(white,#E7E8F4);
 }
 .content{
-		overflow: hidden;
+  overflow: hidden;
 }
 @media screen and (max-width: 768px) {
   .colorOnPad {
-		border: 1px solid #E7E8F4;
-		color:black;
-		border-radius:5px;
-		box-shadow: 0px 4px 1px 2px #676767;
-		background-color: #E7E8F4;
-		background: radial-gradient(white,#E7E8F4);
+    border: 1px solid #E7E8F4;
+    color:black;
+    border-radius:5px;
+    box-shadow: 0px 4px 1px 2px #676767;
+    background-color: #E7E8F4;
+    background: radial-gradient(white,#E7E8F4);
   }
 }
 /* Design des badges */
@@ -120,74 +120,74 @@ font-family: 'Anonymous Pro', monospace;
   font-weight: bold;
 }
 .progressBarRow{
-display: flex;
-flex-direction: column;
-text-align: start;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
 }
 .progressBar {
-	/* margin-bottom: 26px; */
-	margin-bottom: 1em;
-	position: relative;
+  /* margin-bottom: 26px; */
+  margin-bottom: 1em;
+  position: relative;
 }
 .progressBar h4 {
-	font-size: 16px;
-	text-transform: none;
-	/* margin-bottom: 7px; */
-	margin-bottom: 0.33em;
-	color: black;
+  font-size: 16px;
+  text-transform: none;
+  /* margin-bottom: 7px; */
+  margin-bottom: 0.33em;
+  color: black;
 }
 .progressBarcontainer {
-	width: 100%;
-	height: 10px;
-	background: #E1E1E1!important;
-	overflow: hidden;
-	border-radius: 0.3em;
+  width: 100%;
+  height: 10px;
+  background: #E1E1E1!important;
+  overflow: hidden;
+  border-radius: 0.3em;
 }
 .progressBarValue {
-	height: 10px;
-	float: left;
-	border-radius: 0.3em;
-	background: black;
+  height: 10px;
+  float: left;
+  border-radius: 0.3em;
+  background: black;
 }
 .speech-bubble {
-	font-size: 0.75em;
-	line-height: 2em;
-	position: absolute;
-	top: -0.60em;
-	text-align: center;
-	min-width: 3em;
-	border-radius: 0.3em;
-	color: white;
-	display: none;
+  font-size: 0.75em;
+  line-height: 2em;
+  position: absolute;
+  top: -0.60em;
+  text-align: center;
+  min-width: 3em;
+  border-radius: 0.3em;
+  color: white;
+  display: none;
 }
 .speech-bubble:after {
-	border: 0.5em solid transparent;
-	content: "";
-	margin-left: -0.5em;
-	position: absolute;
-	bottom: -50%;
-	left: 50%;
+  border: 0.5em solid transparent;
+  content: "";
+  margin-left: -0.5em;
+  position: absolute;
+  bottom: -50%;
+  left: 50%;
 }
 .html {
-	left: calc(88.5% - 1.5em);
+  left: calc(88.5% - 1.5em);
 }
 .javascript{
-	  left: calc(48.5% - 1.5em);
+  left: calc(48.5% - 1.5em);
 }
 .php{
-	  left: calc(48.5% - 1.5em);
+  left: calc(48.5% - 1.5em);
 }
 .sql{
-	left: calc(48.5% - 1.5em);
+  left: calc(48.5% - 1.5em);
 }
 .jquery{
-	left: calc(58.5% - 1.5em);
+  left: calc(58.5% - 1.5em);
 }
 .bootstrap4{
-	left: calc(88.5% - 1.5em);
+  left: calc(88.5% - 1.5em);
 }
 .wordpress{
-	left: calc(88.5% - 1.5em);
+  left: calc(88.5% - 1.5em);
 }
 .html,
 .javascript,
@@ -196,19 +196,19 @@ text-align: start;
 .jquery,
 .bootstrap4,
 .wordpress{
-	background: blue;
+  background: blue;
 }
 .html:after, .javascript:after, .sql:after, .php:after, .jquery:after, .bootstrap4:after, .wordpress:after {
-	border-top-color: blue;
+  border-top-color: blue;
 }
 /* fin modal experiences */
 /* Modal History */
 .modal-content{
   border: 1px solid #E7E8F4;
-	color:black;
-	border-radius:5px;
-	box-shadow: 0px 10px 1px 2px #676767;
-	background-color: #E7E8F4;
+  color:black;
+  border-radius:5px;
+  box-shadow: 0px 10px 1px 2px #676767;
+  background-color: #E7E8F4;
   background: linear-gradient(#E7E8F4, white);
 }
 .modal{
@@ -351,24 +351,24 @@ text-align: start;
 @media screen and (max-width: 600px) {
   /* Place the timelime to the left */
   .timeline::after {
-  left: 25px;
+    left: 25px;
   }
   .containerTimeline {
-  width: 100%;
-  padding-left: 70px;
-  padding-right: 25px;
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
   }
   .containerTimeline::before {
-  left: 60px;
-  border: medium solid white;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
   }
   .leftTimeline::after, .rightTimeline::after {
-  left: 15px;
+    left: 15px;
   }
   .rightTimeline {
-  left: 0%;
+    left: 0%;
   }
 }
 .customYear{
@@ -421,21 +421,21 @@ text-align: start;
 /* Personnalisation du header Performance */
 .buttonDesactived{
   box-shadow: 1px 3px 6px red;
-   cursor: none;
+  cursor: none;
   border: 1mm ridge red;
   color: white;
   background: #343A40;
 }
 .performanceMode{
-	color:white;
-	margin-top:20px;
+  color:white;
+  margin-top:20px;
   font-size: 5vh;
   margin-left: 1vh;
   margin-right: 1vh;
 }
 .performanceMode{
-	color:white;
-	margin-top:20px;
+  color:white;
+  margin-top:20px;
 }
 .performanceMode::before, .performanceMode::after {
   display:inline-block;
@@ -451,39 +451,175 @@ text-align: start;
 /* Media queries pour ne plus afficher le performance */
 @media screen and (max-width: 1300px){
   .container_performance{
-      display:none;
+    display:none;
   }
 }
 /* couleur pour le javascript */
 .color1{
   border: 1px solid #D7849D;
-	color:black;
-	border-radius:5px;
-	box-shadow: 0px 10px 1px 2px #D7849D;
-	background-color: #D7849D;
-	background: radial-gradient(white,#D7849D);
+  color:black;
+  border-radius:5px;
+  box-shadow: 0px 10px 1px 2px #D7849D;
+  background-color: #D7849D;
+  background: radial-gradient(white,#D7849D);
 }
 .color2{
   border: 1px solid #78FECF;
-	color:black;
-	border-radius:5px;
-	box-shadow: 0px 10px 1px 2px #78FECF;
-	background-color: #78FECF;
-	background: radial-gradient(white, #78FECF);
+  color:black;
+  border-radius:5px;
+  box-shadow: 0px 10px 1px 2px #78FECF;
+  background-color: #78FECF;
+  background: radial-gradient(white, #78FECF);
 }
 .color3{
   border: 1px solid #71D9FF;
-	color:black;
-	border-radius:5px;
-	box-shadow: 0px 10px 1px 2px #71D9FF;
-	background-color: #71D9FF;
-	background: radial-gradient(white, #71D9FF);
+  color:black;
+  border-radius:5px;
+  box-shadow: 0px 10px 1px 2px #71D9FF;
+  background-color: #71D9FF;
+  background: radial-gradient(white, #71D9FF);
 }
 .color4{
   border: 1px solid #D8D890;
-	color:black;
-	border-radius:5px;
-	box-shadow: 0px 10px 1px 2px #D8D890;
-	background-color: #D8D890;
-	background: radial-gradient(white, #D8D890);
+  color:black;
+  border-radius:5px;
+  box-shadow: 0px 10px 1px 2px #D8D890;
+  background-color: #D8D890;
+  background: radial-gradient(white, #D8D890);
+}
+
+/* container général */
+.generalContainer{
+  display: flex;
+  flex-direction: row;
+  background-color: #280A0C;
+}
+/* Container gauche */
+.leftContainer{
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.bloc_bank{
+  padding-left: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.containerscreen{
+  max-height: 30vh;
+}
+.button_container_left, .button_container_right{
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  /* Aligne en bas le container */
+  /* Pour que le container soit aligner au milieu justify-content-center dans la row */
+}
+.customBank{
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 6vh;
+  color:white;
+}
+.customButtonLeftContainer{
+  border: 1px solid red;
+  text-align: center;
+  background-color: grey;
+}
+.buttonDesactivedLeft, .buttonDesactivedRight{
+  box-shadow: 1px 3px 6px red;
+  cursor: none;
+  border: 1mm ridge red;
+  color: white;
+  background: #343A40;
+}
+.buttonDesactivedSync{
+  box-shadow: 1px 4px 8px green;
+  border:2px solid green;
+  margin-bottom: 7px;
+}
+/* Pour l'écran */
+.marquee-rtl {
+  max-width: 16em;                     /* largeur de la fenêtre */
+  margin: 2em auto 2em;
+  overflow: hidden;                     /* masque tout ce qui dépasse */
+}
+/* le bloc défilant */
+.marquee-rtl > :first-child {
+  display: inline-block;                /* modèle de boîte en ligne */
+  padding-right: 2em;                   /* un peu d'espace pour la transition */
+  padding-left: 100%;                   /* placement à droite du conteneur */
+  white-space: nowrap;                  /* pas de passage à la ligne */
+  animation: defilement-rtl 15s infinite linear;
+  color:white;
+  font-weight:lighter;
+  font-size: 20px;
+
+}
+@keyframes defilement-rtl {
+  0% {
+    transform: translate3d(0,0,0);      /* position initiale à droite */
+  }
+  100% {
+    transform: translate3d(-100%,0,0);  /* position finale à gauche */
+  }
+}
+#screen{
+  max-width:20em;                      /* largeur de la fenêtre */
+  border: 1px solid black;
+  overflow: hidden;                     /* masque tout ce qui dépasse */
+  background-color: #0000FE;
+  box-shadow: inset 0 0 1em white, 0 0 1em black;
+}
+#titleControlPad{
+  width: 100%;
+}
+/* fin container gauche */
+/* Container droit */
+.rightContainer{
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.bloc_button_right, .bloc_button_left{
+  display: flex;
+  flex-direction: column;
+  /* Permet de mettre les boutons en colonnes et de la même taille */
+}
+.customBank2{
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 5vh;
+  color:white;
+}
+.bloc_button_right{
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+.brandControlPad{
+  margin-top: 20px;
+  font-size:4em;
+  color:White;
+}
+#machine_name{
+  font-size: 6vh;
+  color: white;
+  text-align: center;
+}
+@media screen and (max-width: 1300px){
+  .rightContainer{
+    display:none
+  }
+  .leftContainer{
+    display:none
+  }
+  .generalContainer{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }

@@ -33,7 +33,7 @@ $(document).ready(function(){
 //Similaire à setTimeout, elle déclenche répétitivement la même action à intervalles réguliers.
     x = setInterval('cligno()',2200);
 //setTimeout définit une action à exécuter et un délai avant son exécution
-    setTimeout('myStopFunction()', 10000);
+    setTimeout('myStopFunction()', 20000);
 });
 function myStopFunction() {
 //stop la fonction Interval
