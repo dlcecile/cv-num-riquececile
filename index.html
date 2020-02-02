@@ -10,475 +10,473 @@
 </head>
 <body>
   <!-- Container générale -->
-<div class="container-fluid generalContainer">
-  <!-- Container gauche -->
-  <div class="container-fluid leftContainer">
-    <div class="row col-10 justify-content-center">
-      <div class="containerscreen mt-5">
-      <div id="screen">
-      <div class="marquee-rtl">
-      <!-- le contenu défilant -->
-        <div>Bonjour, bienvenue sur mon curriculum vitae.</div>
+  <div class="container-fluid generalContainer">
+    <!-- Container gauche -->
+    <div class="container-fluid leftContainer">
+      <div class="row col-10 justify-content-center">
+        <div class="containerscreen mt-5">
+          <div id="screen">
+            <div class="marquee-rtl">
+              <!-- le contenu défilant -->
+              <div>Bonjour, bienvenue sur mon curriculum vitae.</div>
+            </div>
+          </div>
+          <p id="machine_name">MDP226</p>
+        </div>
+        <div class="button_container_left">
+          <div class="bloc_bank">
+            <p class="customBank">BANK/DECK</p>
+          </div>
+          <div class="bloc_button_left">
+            <button type="button" class="btn btn-lg mr-1 buttonDesactivedLeft" disabled>1..</button>
+            <p class="customButtonLeftContainer mb-3">SAMPLER</p>
+            <button type="button" class="btn btn-lg mr-1 buttonDesactivedLeft" disabled>2</button>
+            <p class="customButtonLeftContainer mb-3">SLICE</p>
+            <button type="button" class="btn btn-lg mr-1 buttonDesactivedLeft" disabled>3</button>
+            <p class="customButtonLeftContainer mb-3">CUE</p>
+            <button type="button" class="btn btn-lg mr-1 buttonDesactivedLeft" disabled>4</button>
+            <p class="customButtonLeftContainer mb-3">HOT</p>
+          </div>
+        </div>
+      </div>
     </div>
-    </div>
-    <p id="machine_name">MDP226</p>
-  </div>
-    <div class="button_container_left">
-    <div class="bloc_bank">
-  <p class="customBank">BANK/DECK</p>
-</div>
-<div class="bloc_button_left">
-  <button type="button" class="btn btn-lg mr-1 buttonDesactivedLeft" disabled>1..</button>
-  <p class="customButtonLeftContainer mb-3">SAMPLER</p>
-  <button type="button" class="btn btn-lg mr-1 buttonDesactivedLeft" disabled>2</button>
-    <p class="customButtonLeftContainer mb-3">SLICE</p>
-  <button type="button" class="btn btn-lg mr-1 buttonDesactivedLeft" disabled>3</button>
-    <p class="customButtonLeftContainer mb-3">CUE</p>
-  <button type="button" class="btn btn-lg mr-1 buttonDesactivedLeft" disabled>4</button>
-  <p class="customButtonLeftContainer mb-3">HOT</p>
-</div>
-</div>
-</div>
-  </div>
-  <!-- Container générale au milieu-->
-  <div class="container-fluid middle_container">
-    <!-- Container faux boutons-->
-    <div class="container_performance">
-      <div class="row justify-content-center">
-        <p class="performanceMode">PERFORMANCE MODE</p>
-      </div>
-      <div class="row justify-content-center">
-        <button type="button" class="btn btn-lg col-md-2 mr-2 mb-3 buttonDesactived" disabled>SAMPLER</button>
-        <button type="button" class="btn btn-lg col-md-2 mr-2 mb-3 buttonDesactived" disabled>SLICER</button>
-        <button type="button" class="btn btn-lg col-md-2 mr-2 mb-3 buttonDesactived" disabled>HOT CUE</button>
-        <button type="button" class="btn btn-lg col-md-2 mr-2 mb-3 buttonDesactived" disabled>HOT LOOP</button>
-        <button type="button" class="btn btn-lg col-md-2 mr-2 mb-3 buttonDesactived" disabled>FLIP</button>
-      </div>
-      <div class="row justify-content-center text-center">
-        <p class="customButtonMiddleContainer col-md-2 mr-2 mb-2 ">SAMPLER</p>
-        <p class="customButtonMiddleContainer col-md-2 mr-2 mb-2 ">PAD FX</p>
-        <p class="customButtonMiddleContainer col-md-2 mr-2 mb-2 ">LOPPER SLICER</p>
-        <p class="customButtonMiddleContainer col-md-2 mr-2 mb-2 ">FLIP</p>
-        <p class="customButtonMiddleContainer col-md-2 mr-2 mb-2 ">MANUEL LOOPER</p>
-      </div>
-      <hr>
-    </div>
-    <!-- Début container pad -->
-    <div class="container_pad">
-      <!-- 1er Pad -->
-      <div class="pad colorOnPad blinking_pad" data-toggle="modal" data-target="#padModalIdentity">
-        <div class="content" id="pad1">
-          <span class="badge badge-dark"><i class="fa fa-user"></i>Identity</span>
+    <!-- Container générale au milieu-->
+    <div class="container-fluid middle_container">
+      <!-- Container faux boutons-->
+      <div class="container_performance">
+        <div class="row justify-content-center">
+          <p class="performanceMode">PERFORMANCE MODE</p>
         </div>
+        <div class="row justify-content-center">
+          <button type="button" class="btn btn-lg col-md-2 mr-2 mb-3 buttonDesactived" disabled>SAMPLER</button>
+          <button type="button" class="btn btn-lg col-md-2 mr-2 mb-3 buttonDesactived" disabled>SLICER</button>
+          <button type="button" class="btn btn-lg col-md-2 mr-2 mb-3 buttonDesactived" disabled>HOT CUE</button>
+          <button type="button" class="btn btn-lg col-md-2 mr-2 mb-3 buttonDesactived" disabled>HOT LOOP</button>
+          <button type="button" class="btn btn-lg col-md-2 mr-2 mb-3 buttonDesactived" disabled>FLIP</button>
+        </div>
+        <div class="row justify-content-center text-center">
+          <p class="customButtonMiddleContainer col-md-2 mr-2 mb-2 ">SAMPLER</p>
+          <p class="customButtonMiddleContainer col-md-2 mr-2 mb-2 ">PAD FX</p>
+          <p class="customButtonMiddleContainer col-md-2 mr-2 mb-2 ">LOPPER SLICER</p>
+          <p class="customButtonMiddleContainer col-md-2 mr-2 mb-2 ">FLIP</p>
+          <p class="customButtonMiddleContainer col-md-2 mr-2 mb-2 ">MANUEL LOOPER</p>
+        </div>
+        <hr>
       </div>
-      <!-- Modal -->
-      <div class="modal fade" id="padModalIdentity">
-        <div class="modal-dialog modal-xl modal-md centered">
-          <div class="modal-content">
-            <div class="modal-header modaleButtonBackground">
-              <h2 class="titleModal">Mon identité</h2>
-              <!-- text-light couleur blanche du texte et modales titles permet de centrer le texte normalement -->
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body identity_body">
-              <img src="assets/img/bitmoji.png" class="bitmoji" alt="photo">
-              <input type="button" class="btn btn-dark col-lg-5" value="Télécharger mon CV" onclick="javascript:location.href='assets/img/cv.pdf'">
-            </div>
+      <!-- Début container pad -->
+      <div class="container_pad">
+        <!-- 1er Pad -->
+        <div class="pad colorOnPad blinking_pad" data-toggle="modal" data-target="#padModalIdentity">
+          <div class="content" id="pad1">
+            <span class="badge badge-dark"><i class="fa fa-user"></i>Identity</span>
           </div>
         </div>
-      </div>
-      <!-- Deuxième Pad -->
-      <div class="pad colorOnPad padSpace" data-toggle="modal" data-target="#padModalQualities">
-        <div class="content" id="pad2">
-          <span class="badge badge-dark"><i class="fa fa-balance-scale"></i>Qualities</span>
-        </div>
-      </div>
-      <!-- Modal -->
-      <div class="modal fade" id="padModalQualities">
-        <div class="modal-dialog modal-xl modal-md centered">
-          <div class="modal-content">
-            <div class="modal-header modaleButtonBackground">
-              <h2 class="titleModal">Mes qualités</h2>
-              <!-- text-light couleur blanche du texte et modales titles permet de centrer le tetxe normalement -->
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <p class="customSkills"><span class="legendSkillsPersonal">Relationnelle</span></p>
-              <div class="containerSkillsPersonal">
-                <div class="skills Relationship ">90%</div>
+        <!-- Modal -->
+        <div class="modal fade" id="padModalIdentity">
+          <div class="modal-dialog modal-xl modal-md centered">
+            <div class="modal-content">
+              <div class="modal-header modaleButtonBackground">
+                <h2 class="titleModal">Mon identité</h2>
+                <!-- text-light couleur blanche du texte et modales titles permet de centrer le texte normalement -->
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
               </div>
-              <p class="customSkills"><span class="legendSkillsPersonal">Esprit d'équipe</span></p>
-              <div class="containerSkillsPersonal">
-                <div class="skills TeamSiprit">90%</div>
-              </div>
-              <p class="customSkills"><span class="legendSkillsPersonal">Gestion du temps et du stress</span></p>
-              <div class="containerSkillsPersonal">
-                <div class="skills TimeAndStress">85%</div>
-              </div>
-              <p class="customSkills"><span class="legendSkillsPersonal">Polyvalence</span></p>
-              <div class="containerSkillsPersonal">
-                <div class="skills Multipurpose">90%</div>
+              <div class="modal-body identity_body">
+                <img src="assets/img/bitmoji.png" class="bitmoji" alt="photo">
+                <input type="button" class="btn btn-dark col-lg-5" value="Télécharger mon CV" onclick="javascript:location.href='assets/img/cv.pdf'">
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <!-- Troisième Pad -->
-      <div class="pad colorOnPad" data-toggle="modal" data-target="#padModal3">
-        <div class="content" id="pad3">
-          <span class="badge badge-dark"><i class="fa fa-comment"></i>History</span>
-        </div>
-      </div>
-      <!-- Modal -->
-      <div class="modal fade" id="padModal3">
-        <div class="modal-dialog modal-xl modal-md centered">
-          <div class="modal-content">
-            <div class="modal-header modaleButtonBackground">
-              <h2 class="titleModal">Ma petite histoire</h2>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <p class="history"> Passionnée par l'univers de l'informatique, je me suis lancée un défi, celui de devenir développeur Web/Web Mobile junior.<br>Après plusieurs années en tant que chargée d'évaluation de suivi auprès de personnes en difficultés sociales et professionnelle. En Septembre 2019, je suis entrée en formation professionnelle à l'école La MANU à Amiens.<br>Cette formation prendra fin le 13 Mars 2019 et j'aimerai trouver une entreprise avec qui je pourrais continuer mon parcours de développeur Web.</p>
-            </div>
+        <!-- Deuxième Pad -->
+        <div class="pad colorOnPad padSpace" data-toggle="modal" data-target="#padModalQualities">
+          <div class="content" id="pad2">
+            <span class="badge badge-dark"><i class="fa fa-balance-scale"></i>Qualities</span>
           </div>
         </div>
-      </div>
-      <!-- Quatrième Pad -->
-      <div class="pad colorOnPad" data-toggle="modal" data-target="#padModalDiploma">
-        <div class="content" id="pad4">
-          <span class="badge badge-dark"><i class="fa fa-graduation-cap"></i>Diploma</span>
-        </div>
-      </div>
-      <!-- Modal -->
-      <div class="modal fade" id="padModalDiploma">
-        <div class="modal-dialog modal-xl modal-md centered">
-          <div class="modal-content">
-            <div class="modal-header modaleButtonBackground">
-              <h2 class="titleModal">Mes diplômes</h2>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body modalBodyDiploma">
-              <p class="customDiploma"><span class="colorYearDiploma">2019-2020</span><br>Formation de développeur Web/Web Mobile de 805H<br><span class="colorTravel">La MANU à Amiens.</span></p>
-              <p class="customDiploma"><span class="colorYearDiploma">2011-2013</span><br>DEUG de droit<br><span class="colorTravel"> UPJV de droit à Amiens.</span></p>
-              <p class="customDiploma"><span class="colorYearDiploma">2007-2008</span><br>Baccalauréat Scientifique<br><span class="colorTravel">Lycée de l'Authie à Doullens</span></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Cinquième Pad -->
-      <div class="pad colorOnPad padSpace" data-toggle="modal" data-target="#padModalExperience">
-        <div class="content" id="pad5">
-          <span class="badge badge-dark"><i class="fa fa-briefcase"></i>Expériences</span>
-        </div>
-      </div>
-      <!-- Modal -->
-      <div class="modal fade" id="padModalExperience" tabindex="-1" role="dialog" aria-labelledby="padModalExperience" aria-hidden="true">
-        <div class="modal-dialog modal-xl modal-md centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h2 class="titleModal">Mes expériences professionnelles</h2>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body modalBodyExperience">
-              <div class="timeline">
-                <div class="containerTimeline rightTimeline">
-                  <div class="contentTimeline">
-                    <h2 class="customYear">2018</h2>
-                    <h3 class="customDate">Du 15/05/2018 au 14/05/2019 </h3>
-                    <p class="customprofession">Référente RSA et animatrice en insertion sociale et professionnelle, Foyer des jeunes et d'éducation popuplaire à Pas-en-Artois.</p>
-                  </div>
+        <!-- Modal -->
+        <div class="modal fade" id="padModalQualities">
+          <div class="modal-dialog modal-xl modal-md centered">
+            <div class="modal-content">
+              <div class="modal-header modaleButtonBackground">
+                <h2 class="titleModal">Mes qualités</h2>
+                <!-- text-light couleur blanche du texte et modales titles permet de centrer le tetxe normalement -->
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p class="customSkills"><span class="legendSkillsPersonal">Relationnelle</span></p>
+                <div class="containerSkillsPersonal">
+                  <div class="skills Relationship ">90%</div>
                 </div>
-                <div class="containerTimeline leftTimeline">
-                  <div class="contentTimeline">
-                    <h2 class="customYear">2018</h2>
-                    <h3 class="customDate">Du 01/01/2018 au 31/05/2018</h3>
-                    <p class="customprofession">Chargée de suivi et d'évaluation, Artois Technique Service à Warlincourt-Lès-Pas</p>
-                  </div>
+                <p class="customSkills"><span class="legendSkillsPersonal">Esprit d'équipe</span></p>
+                <div class="containerSkillsPersonal">
+                  <div class="skills TeamSiprit">90%</div>
                 </div>
-                <div class="containerTimeline rightTimeline">
-                  <div class="contentTimeline">
-                    <h2 class="customYear">2016</h2>
-                    <h3 class="customDate">Du 01/04/2016 au 30/09/2019</h3>
-                    <p class="customprofession">Conseillère au service formation, Pôle Emploi, à Amiens</p>
-                  </div>
+                <p class="customSkills"><span class="legendSkillsPersonal">Gestion du temps et du stress</span></p>
+                <div class="containerSkillsPersonal">
+                  <div class="skills TimeAndStress">85%</div>
                 </div>
-                <div class="containerTimeline leftTimeline">
-                  <div class="contentTimeline">
-                    <h2 class="customYear">2015</h2>
-                    <h3 class="customDate">Du 22/06/2015 au 11/12/2015</h3>
-                    <p class="customprofession">Agente Administrative à la Caisse d'Allocation Familiales de la Somme, à Amiens</p>
-                  </div>
-                </div>
-                <div class="containerTimeline rightTimeline">
-                  <div class="contentTimeline">
-                    <h2 class="customYear">2014</h2>
-                    <h3 class="customDate">Du 01/07/2014 au 31/07/2014</h3>
-                    <p class="customprofession">Télèconseillère EDF, à Coriolis, à Amiens</p>
-                  </div>
-                </div>
-                <div class="containerTimeline leftTimeline">
-                  <div class="contentTimeline">
-                    <h2 class="customYear">2013</h2>
-                    <p class="customprofession">Stage au sein de «L'Association  d'aide  aux  personnes populaires», à Saint Laurent Blangy.</p>
-                  </div>
+                <p class="customSkills"><span class="legendSkillsPersonal">Polyvalence</span></p>
+                <div class="containerSkillsPersonal">
+                  <div class="skills Multipurpose">90%</div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <!-- Sixième Pad -->
-      <div class="pad colorOnPad" data-toggle="modal" data-target="#padModalskills">
-        <div class="content" id="pad6">
-          <span class="badge badge-dark"><i class="fa fa-cogs"></i>Skills</span>
+        <!-- Troisième Pad -->
+        <div class="pad colorOnPad" data-toggle="modal" data-target="#padModal3">
+          <div class="content" id="pad3">
+            <span class="badge badge-dark"><i class="fa fa-comment"></i>History</span>
+          </div>
         </div>
-      </div>
-      <!-- Modal -->
-      <div class="modal fade" id="padModalskills">
-        <div class="modal-dialog modal-xl modal-md centered">
-          <div class="modal-content">
-            <div class="modal-header modaleButtonBackground">
-              <h2 class="titleModal">Mes compétences</h2>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
+        <!-- Modal -->
+        <div class="modal fade" id="padModal3">
+          <div class="modal-dialog modal-xl modal-md centered">
+            <div class="modal-content">
+              <div class="modal-header modaleButtonBackground">
+                <h2 class="titleModal">Ma petite histoire</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p class="history"> Passionnée par l'univers de l'informatique, je me suis lancée un défi, celui de devenir développeur Web/Web Mobile junior.<br>Après plusieurs années en tant que chargée d'évaluation de suivi auprès de personnes en difficultés sociales et professionnelle. En Septembre 2019, je suis entrée en formation professionnelle à l'école La MANU à Amiens.<br>Cette formation prendra fin le 13 Mars 2019 et j'aimerai trouver une entreprise avec qui je pourrais continuer mon parcours de développeur Web.</p>
+              </div>
             </div>
-            <div class="modal-body">
-              <!-- Mettre les barres de progressions -->
-              <p class="titleExperienceComputer">LANGAGES ET FRAMEWORKS</p>
-              <div class="row progressBarRow">
-                <div class="eight columns">
-                  <div class="progressBar">
-                    <h4>HTML5/CSS3</h4>
-                    <div class="progressBarcontainer">
-                      <div class="speech-bubble html">90%</div>
-                      <div class="progressBarValue ht"></div>
+          </div>
+        </div>
+        <!-- Quatrième Pad -->
+        <div class="pad colorOnPad" data-toggle="modal" data-target="#padModalDiploma">
+          <div class="content" id="pad4">
+            <span class="badge badge-dark"><i class="fa fa-graduation-cap"></i>Diploma</span>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="padModalDiploma">
+          <div class="modal-dialog modal-xl modal-md centered">
+            <div class="modal-content">
+              <div class="modal-header modaleButtonBackground">
+                <h2 class="titleModal">Mes diplômes</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body modalBodyDiploma">
+                <p class="customDiploma"><span class="colorYearDiploma">2019-2020</span><br>Formation de développeur Web/Web Mobile de 805H<br><span class="colorTravel">La MANU à Amiens.</span></p>
+                <p class="customDiploma"><span class="colorYearDiploma">2011-2013</span><br>DEUG de droit<br><span class="colorTravel"> UPJV de droit à Amiens.</span></p>
+                <p class="customDiploma"><span class="colorYearDiploma">2007-2008</span><br>Baccalauréat Scientifique<br><span class="colorTravel">Lycée de l'Authie à Doullens</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Cinquième Pad -->
+        <div class="pad colorOnPad padSpace" data-toggle="modal" data-target="#padModalExperience">
+          <div class="content" id="pad5">
+            <span class="badge badge-dark"><i class="fa fa-briefcase"></i>Expériences</span>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="padModalExperience" tabindex="-1" role="dialog" aria-labelledby="padModalExperience" aria-hidden="true">
+          <div class="modal-dialog modal-xl modal-md centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 class="titleModal">Mes expériences professionnelles</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body modalBodyExperience">
+                <div class="timeline">
+                  <div class="containerTimeline rightTimeline">
+                    <div class="contentTimeline">
+                      <h2 class="customYear">2018</h2>
+                      <h3 class="customDate">Du 15/05/2018 au 14/05/2019 </h3>
+                      <p class="customprofession">Référente RSA et animatrice en insertion sociale et professionnelle, Foyer des jeunes et d'éducation popuplaire à Pas-en-Artois.</p>
                     </div>
                   </div>
+                  <div class="containerTimeline leftTimeline">
+                    <div class="contentTimeline">
+                      <h2 class="customYear">2018</h2>
+                      <h3 class="customDate">Du 01/01/2018 au 31/05/2018</h3>
+                      <p class="customprofession">Chargée de suivi et d'évaluation, Artois Technique Service à Warlincourt-Lès-Pas</p>
+                    </div>
+                  </div>
+                  <div class="containerTimeline rightTimeline">
+                    <div class="contentTimeline">
+                      <h2 class="customYear">2016</h2>
+                      <h3 class="customDate">Du 01/04/2016 au 30/09/2019</h3>
+                      <p class="customprofession">Conseillère au service formation, Pôle Emploi, à Amiens</p>
+                    </div>
+                  </div>
+                  <div class="containerTimeline leftTimeline">
+                    <div class="contentTimeline">
+                      <h2 class="customYear">2015</h2>
+                      <h3 class="customDate">Du 22/06/2015 au 11/12/2015</h3>
+                      <p class="customprofession">Agente Administrative à la Caisse d'Allocation Familiales de la Somme, à Amiens</p>
+                    </div>
+                  </div>
+                  <div class="containerTimeline rightTimeline">
+                    <div class="contentTimeline">
+                      <h2 class="customYear">2014</h2>
+                      <h3 class="customDate">Du 01/07/2014 au 31/07/2014</h3>
+                      <p class="customprofession">Télèconseillère EDF, à Coriolis, à Amiens</p>
+                    </div>
+                  </div>
+                  <div class="containerTimeline leftTimeline">
+                    <div class="contentTimeline">
+                      <h2 class="customYear">2013</h2>
+                      <p class="customprofession">Stage au sein de «L'Association  d'aide  aux  personnes populaires», à Saint Laurent Blangy.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Sixième Pad -->
+        <div class="pad colorOnPad" data-toggle="modal" data-target="#padModalskills">
+          <div class="content" id="pad6">
+            <span class="badge badge-dark"><i class="fa fa-cogs"></i>Skills</span>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="padModalskills">
+          <div class="modal-dialog modal-xl modal-md centered">
+            <div class="modal-content">
+              <div class="modal-header modaleButtonBackground">
+                <h2 class="titleModal">Mes compétences</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <!-- Mettre les barres de progressions -->
+                <p class="titleExperienceComputer">LANGAGES ET FRAMEWORKS</p>
+                <div class="row progressBarRow">
+                  <div class="eight columns">
+                    <div class="progressBar">
+                      <h4>HTML5/CSS3</h4>
+                      <div class="progressBarcontainer">
+                        <div class="speech-bubble html">90%</div>
+                        <div class="progressBarValue ht"></div>
+                      </div>
+                    </div>
 
-                  <div class="progressBar">
-                    <h4>JavaScript</h4>
-                    <div class="progressBarcontainer">
-                      <div class="speech-bubble javascript">50%</div>
-                      <div class="progressBarValue js"></div>
+                    <div class="progressBar">
+                      <h4>JavaScript</h4>
+                      <div class="progressBarcontainer">
+                        <div class="speech-bubble javascript">50%</div>
+                        <div class="progressBarValue js"></div>
+                      </div>
                     </div>
-                  </div>
-                  <div class="progressBar">
-                    <h4>PHP</h4>
-                    <div class="progressBarcontainer">
-                      <div class="speech-bubble php">50%</div>
-                      <div class="progressBarValue pp"></div>
+                    <div class="progressBar">
+                      <h4>PHP</h4>
+                      <div class="progressBarcontainer">
+                        <div class="speech-bubble php">50%</div>
+                        <div class="progressBarValue pp"></div>
+                      </div>
                     </div>
-                  </div>
-                  <div class="progressBar">
-                    <h4>SQL</h4>
-                    <div class="progressBarcontainer">
-                      <div class="speech-bubble sql">50%</div>
-                      <div class="progressBarValue sl"></div>
+                    <div class="progressBar">
+                      <h4>SQL</h4>
+                      <div class="progressBarcontainer">
+                        <div class="speech-bubble sql">50%</div>
+                        <div class="progressBarValue sl"></div>
+                      </div>
                     </div>
-                  </div>
-                  <div class="progressBar">
-                    <h4>Jquery</h4>
-                    <div class="progressBarcontainer">
-                      <div class="speech-bubble jquery">60%</div>
-                      <div class="progressBarValue jy"></div>
+                    <div class="progressBar">
+                      <h4>Jquery</h4>
+                      <div class="progressBarcontainer">
+                        <div class="speech-bubble jquery">60%</div>
+                        <div class="progressBarValue jy"></div>
+                      </div>
                     </div>
-                  </div>
-                  <div class="progressBar">
-                    <h4>Bootstrap4</h4>
-                    <div class="progressBarcontainer">
-                      <div class="speech-bubble bootstrap4">90%</div>
-                      <div class="progressBarValue boots"></div>
+                    <div class="progressBar">
+                      <h4>Bootstrap4</h4>
+                      <div class="progressBarcontainer">
+                        <div class="speech-bubble bootstrap4">90%</div>
+                        <div class="progressBarValue boots"></div>
+                      </div>
                     </div>
-                  </div>
-                  <div class="progressBar">
-                    <h4>Wordpress</h4>
-                    <div class="progressBarcontainer">
-                      <div class="speech-bubble wordpress">80%</div>
-                      <div class="progressBarValue wp"></div>
+                    <div class="progressBar">
+                      <h4>Wordpress</h4>
+                      <div class="progressBarcontainer">
+                        <div class="speech-bubble wordpress">80%</div>
+                        <div class="progressBarValue wp"></div>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <!-- FIn modal-body -->
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Septième Pad -->
-      <div class="pad colorOnPad" data-toggle="modal" data-target="#padModalHobbies">
-        <div class="content" id="pad7">
-          <span class="badge badge-dark"><i class="fa fa-plane"></i>Hobbies</span>
-        </div>
-      </div>
-      <!-- Modal -->
-      <div class="modal fade" id="padModalHobbies">
-        <div class="modal-dialog modal-xl modal-md centered">
-          <div class="modal-content">
-            <div class="modal-header modaleButtonBackground">
-              <h2 class="titleModal">Mes passions</h2>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body ModalBodyHobbies">
-              <img src="assets/img/passport.png" alt="travel" id="travel" data-toggle="tooltip"
-              data-placement="right" title="Les voyages">
-              <img src="assets/img/poker.png" alt="poker" id="poker" data-toggle="tooltip"
-              data-placement="right" title="Le poker">
-              <img src="assets/img/sampler.png" alt="song" id="song" data-toggle="tooltip"
-              data-placement="right" title="La musique">
-              <img src="assets/img/waterpolo.png" alt="water" id="water" data-toggle="tooltip"
-              data-placement="right" title="Le waterpolo">
-              <p> Je vous livre un aperçu de mes passions. Passions qui ont forgées les aspects intraséques de ma personnalité</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Huitième Pad -->
-      <div class="pad colorOnPad padSpace" data-toggle="modal" data-target="#padModalPortefolio">
-        <div class="content" id="pad8">
-          <span class="badge badge-dark"><i class="fa fa-floppy-o"></i>Portefolio</span>
-        </div>
-      </div>
-      <!-- Modal -->
-      <div class="modal fade" id="padModalPortefolio">
-        <div class="modal-dialog modal-xl modal-md centered">
-          <div class="modal-content">
-            <div class="modal-header modaleButtonBackground">
-              <h2 class="titleModal">Mes projets</h2>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body rowCard">
-              <!-- 1er projet -->
-              <div class="card col-3-lg" style="width: 18rem;">
-                <img class="card-img-top" src="assets/img/sw.png" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Startup Weekend</h5>
-                  <p class="creationDate d-flex justify-content-center">En Novembre 2019</p>
-                  <p class="card-text">Reprise d'un site vitrine existant afin de le rendre responsive.</p>
-                  <p class="useLanguage">Langages utilisés:</p>
-                  <div class="languages d-flex justify-content-center">
-                    <img src="assets/img/html.png" alt="html" class="responsive">
-                    <img src="assets/img/css.png" alt="css" class="responsive">
-                    <img src="assets/img/bootstrap.png" alt="bootstrap" class="responsive">
-                  </div>
-                  <a href="https://la-manu-amiens-promo-3.github.io/Bootstrap-StartUpWeekEnd/" class="btn btn-dark d-flex justify-content-center">Aperçu</a>
-                </div>
-              </div>
-              <!-- Deuxième projet -->
-              <div class="card col-3-lg ml-1 mr-1" style="width: 18rem;">
-                <img class="card-img-top" src="assets/img/okking.png" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Kingdom Of Christmas</h5>
-                  <p class="creationDate d-flex justify-content-center">En décembre 2019</p>
-                  <p class="card-text">Créer un site de e-commerce avec un panier fonctionnel.</p>
-                  <p class="useLanguage">Langages utilisés:</p>
-                  <div class="languages d-flex justify-content-center mb-1">
-                    <img src="assets/img/html.png" alt="html" class="responsive">
-                    <img src="assets/img/css.png" alt="css" class="responsive">
-                    <img src="assets/img/bootstrap.png" alt="bootstrap" class="responsive">
-                    <img src="assets/img/js.png" alt="js" class="responsive">
-                    <img src="assets/img/jquery.png" alt="jquery" class="responsive">
-                  </div>
-                  <a href="https://la-manu-amiens-promo-3.github.io/eCommerce---Kingdom-of-Christmas/" class="btn btn-dark d-flex justify-content-center">Aperçu</a>
-                </div>
-              </div>
-              <!-- Troisième projet -->
-              <div class="card col-3-lg ml-1 mr-1" style="width: 18rem;">
-                <p class="card-text-top d-flex justify-content-center">PRIVATE</p>
-                <div class="card-body">
-                  <h5 class="card-title title_OYA">OPENYOURART</h5>
-                  <p class="creationDate d-flex justify-content-center">Fin Mars 2020</p>
-                  <p class="card-text">Projet pour le titre professionne de développeux Web/Web Mobile</p>
-                  <p class="useLanguage">Langages utilisés:</p>
-                  <div class="languages d-flex justify-content-center">
-                    <img src="assets/img/html.png" alt="html" class="responsive">
-                    <img src="assets/img/css.png" alt="css" class="responsive">
-                    <img src="assets/img/bootstrap.png" alt="bootstrap" class="responsive">
-                    <img src="assets/img/js.png" alt="js" class="responsive">
-                    <img src="assets/img/jquery.png" alt="jquery" class="responsive">
-                    <img src="assets/img/php.png" alt="php" class="responsive">
-                    <img src="assets/img/sql.png" alt="sql" class="responsive">
-                  </div>
-                </div>
+                <!-- FIn modal-body -->
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <!-- Neuvième Pad -->
-      <div  class="pad colorOnPad" data-toggle="modal" data-target="#padModalContact">
-        <div class="content" id="pad9">
-          <span class="badge badge-dark"><i class="fa fa-envelope-o"></i>Contact</span>
+        <!-- Septième Pad -->
+        <div class="pad colorOnPad" data-toggle="modal" data-target="#padModalHobbies">
+          <div class="content" id="pad7">
+            <span class="badge badge-dark"><i class="fa fa-plane"></i>Hobbies</span>
+          </div>
         </div>
-      </div>
-      <!-- Modal -->
-      <div class="modal fade" id="padModalContact">
-        <div class="modal-dialog modal-xl modal-md centered">
-          <div class="modal-content">
-            <div class="modal-header modaleButtonBackground">
-              <h2 class="titleModal">Me contacter</h2>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
+        <!-- Modal -->
+        <div class="modal fade" id="padModalHobbies">
+          <div class="modal-dialog modal-xl modal-md centered">
+            <div class="modal-content">
+              <div class="modal-header modaleButtonBackground">
+                <h2 class="titleModal">Mes passions</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body ModalBodyHobbies">
+                <img src="assets/img/passport.png" alt="travel" id="travel" data-toggle="tooltip"
+                data-placement="right" title="Les voyages">
+                <img src="assets/img/poker.png" alt="poker" id="poker" data-toggle="tooltip"
+                data-placement="right" title="Le poker">
+                <img src="assets/img/sampler.png" alt="song" id="song" data-toggle="tooltip"
+                data-placement="right" title="La musique">
+                <img src="assets/img/waterpolo.png" alt="water" id="water" data-toggle="tooltip"
+                data-placement="right" title="Le waterpolo">
+                <p> Je vous livre un aperçu de mes passions. Passions qui ont forgées les aspects intraséques de ma personnalité</p>
+              </div>
             </div>
-            <div class="modal-body d-flex justify-content-center">
-              <a class="btn mr-2" target="_blank" href="https://github.com/dlcecile" title="gitHub">
-                <i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
-                <a class="btn mr-2" target="_blank" href="mailto:deleucecile@outlook.fr">
-                  <i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a>
-                  <a class="btn mr-2" target="_blank" href="https://www.linkedin.com/in/cecile-deleu-a4065b13b/">
-                    <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
-                    <a class="btn mr-2" target="_blank" href="https://twitter.com/Deleu80124714">
-                      <i class="fa fa-twitter fa-3x"></i></a>
+          </div>
+        </div>
+        <!-- Huitième Pad -->
+        <div class="pad colorOnPad padSpace" data-toggle="modal" data-target="#padModalPortefolio">
+          <div class="content" id="pad8">
+            <span class="badge badge-dark"><i class="fa fa-floppy-o"></i>Portefolio</span>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="padModalPortefolio">
+          <div class="modal-dialog modal-xl modal-md centered">
+            <div class="modal-content">
+              <div class="modal-header modaleButtonBackground">
+                <h2 class="titleModal">Mes projets</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body rowCard">
+                <!-- 1er projet -->
+                <div class="card col-3-lg" style="width: 18rem;">
+                  <img class="card-img-top" src="assets/img/sw.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Startup Weekend</h5>
+                    <p class="creationDate d-flex justify-content-center">En Novembre 2019</p>
+                    <p class="card-text">Reprise d'un site vitrine existant afin de le rendre responsive.</p>
+                    <p class="useLanguage">Langages utilisés:</p>
+                    <div class="languages d-flex justify-content-center">
+                      <img src="assets/img/html.png" alt="html" class="responsive">
+                      <img src="assets/img/css.png" alt="css" class="responsive">
+                      <img src="assets/img/bootstrap.png" alt="bootstrap" class="responsive">
+                    </div>
+                    <a href="https://la-manu-amiens-promo-3.github.io/Bootstrap-StartUpWeekEnd/" class="btn btn-dark d-flex justify-content-center">Aperçu</a>
+                  </div>
+                </div>
+                <!-- Deuxième projet -->
+                <div class="card col-3-lg ml-1 mr-1" style="width: 18rem;">
+                  <img class="card-img-top" src="assets/img/okking.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Kingdom Of Christmas</h5>
+                    <p class="creationDate d-flex justify-content-center">En décembre 2019</p>
+                    <p class="card-text">Créer un site de e-commerce avec un panier fonctionnel.</p>
+                    <p class="useLanguage">Langages utilisés:</p>
+                    <div class="languages d-flex justify-content-center mb-1">
+                      <img src="assets/img/html.png" alt="html" class="responsive">
+                      <img src="assets/img/css.png" alt="css" class="responsive">
+                      <img src="assets/img/bootstrap.png" alt="bootstrap" class="responsive">
+                      <img src="assets/img/js.png" alt="js" class="responsive">
+                      <img src="assets/img/jquery.png" alt="jquery" class="responsive">
+                    </div>
+                    <a href="https://la-manu-amiens-promo-3.github.io/eCommerce---Kingdom-of-Christmas/" class="btn btn-dark d-flex justify-content-center">Aperçu</a>
+                  </div>
+                </div>
+                <!-- Troisième projet -->
+                <div class="card col-3-lg ml-1 mr-1" style="width: 18rem;">
+                  <p class="card-text-top d-flex justify-content-center">PRIVATE</p>
+                  <div class="card-body">
+                    <h5 class="card-title title_OYA">OPENYOURART</h5>
+                    <p class="creationDate d-flex justify-content-center">Fin Mars 2020</p>
+                    <p class="card-text">Projet pour le titre professionne de développeux Web/Web Mobile</p>
+                    <p class="useLanguage">Langages utilisés:</p>
+                    <div class="languages d-flex justify-content-center">
+                      <img src="assets/img/html.png" alt="html" class="responsive">
+                      <img src="assets/img/css.png" alt="css" class="responsive">
+                      <img src="assets/img/bootstrap.png" alt="bootstrap" class="responsive">
+                      <img src="assets/img/js.png" alt="js" class="responsive">
+                      <img src="assets/img/jquery.png" alt="jquery" class="responsive">
+                      <img src="assets/img/php.png" alt="php" class="responsive">
+                      <img src="assets/img/sql.png" alt="sql" class="responsive">
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <!-- Fin des pads -->
           </div>
-          <!-- Fin du container pad -->
-          <!-- Début container droit -->
-          <div class="container-fluid rightContainer">
-            <div class="row justify-content-center">
+        </div>
+        <!-- Neuvième Pad -->
+        <div  class="pad colorOnPad" data-toggle="modal" data-target="#padModalContact">
+          <div class="content" id="pad9">
+            <span class="badge badge-dark"><i class="fa fa-envelope-o"></i>Contact</span>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="padModalContact">
+          <div class="modal-dialog modal-xl modal-md centered">
+            <div class="modal-content">
+              <div class="modal-header modaleButtonBackground">
+                <h2 class="titleModal">Me contacter</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body d-flex justify-content-center">
+                <a class="btn mr-2" target="_blank" href="https://github.com/dlcecile" title="gitHub">
+                  <i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+                  <a class="btn mr-2" target="_blank" href="mailto:deleucecile@outlook.fr">
+                    <i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a>
+                    <a class="btn mr-2" target="_blank" href="https://www.linkedin.com/in/cecile-deleu-a4065b13b/">
+                      <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+                      <a class="btn mr-2" target="_blank" href="https://twitter.com/Deleu80124714">
+                        <i class="fa fa-twitter fa-3x"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Fin des pads -->
+            </div>
+            <!-- Fin du container pad -->
+            <!-- Début container droit -->
+            <div class="container-fluid rightContainer">
+              <div class="row justify-content-center">
                 <p class="brandControlPad">ATOM</p>
-              <div class="button_container_right">
-              <div class="bloc_button_right">
-                <button type="button" class="btn btn-lg buttonDesactivedRight" disabled>MOD</button>
-                <p class="customButtonLeftContainer mb-3">RELATIVE</p>
-                <button type="button" class="btn btn-lg buttonDesactivedRight" disabled>SLIP</button>
-                  <p class="customButtonLeftContainer mb-3">INTERNAL</p>
-                <button type="button" class="btn btn-lg buttonDesactivedSync" disabled>SYNC</button>
-                  <p class="customButtonLeftContainer mb-3">SYNC/OFF</p>
-                <button type="button" class="btn btn-lg mb-3 buttonDesactivedRight" disabled>SHIFT</button>
+                <div class="button_container_right">
+                  <div class="bloc_button_right">
+                    <button type="button" class="btn btn-lg buttonDesactivedRight" disabled>MOD</button>
+                    <p class="customButtonLeftContainer mb-3">RELATIVE</p>
+                    <button type="button" class="btn btn-lg buttonDesactivedRight" disabled>SLIP</button>
+                    <p class="customButtonLeftContainer mb-3">INTERNAL</p>
+                    <button type="button" class="btn btn-lg buttonDesactivedSync" disabled>SYNC</button>
+                    <p class="customButtonLeftContainer mb-3">SYNC/OFF</p>
+                    <button type="button" class="btn btn-lg mb-3 buttonDesactivedRight" disabled>SHIFT</button>
+                  </div>
+                  <div class="bloc_sampler">
+                    <p class="customBank2">SAMPLER/CONTROL</p>
+                  </div>
+                </div>
               </div>
-            <div class="bloc_sampler">
-          <p class="customBank2">SAMPLER/CONTROL</p>
-        </div>
-        </div>
-      </div>
+            </div>
+            <!-- Fin container générale -->
           </div>
-          <!-- Fin container générale -->
-        </div>
           <script src="assets/js/jquery.js"></script>
           <script src="assets/js/script.js"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
           <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
         </body>
-
         </html>
