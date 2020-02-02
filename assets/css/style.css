@@ -452,20 +452,28 @@
 }
 /* couleur pour le javascript */
 .color1{
-  background-color: #D7849D;
-  background: radial-gradient(white,#D7849D);
+  border: 1px solid #D34356;
+  border-radius:5px;
+  background-color: #D34356;
+  background: radial-gradient(white,#D34356);
 }
 .color2{
-  background-color: #78FECF;
-  background: radial-gradient(white, #78FECF);
+  border: 1px solid #4800AE;
+  border-radius:5px;
+  background-color: #4800AE;
+  background: radial-gradient(white, #4800AE);
 }
 .color3{
-  background-color: #71D9FF;
-  background: radial-gradient(white, #71D9FF);
+  border: 1px solid #F7C600;
+  border-radius:5px;
+  background-color: #F7C600;
+  background: radial-gradient(white, #F7C600);
 }
 .color4{
-  background-color: #D8D890;
-  background: radial-gradient(white, #D8D890);
+  border: 1px solid #53A071;
+  border-radius:5px;
+  background-color: #53A071;
+  background: radial-gradient(white, #53A071);
 }
 /* container général */
 .generalContainer{
@@ -499,12 +507,14 @@
 }
 .customBank{
   writing-mode: vertical-rl;
-  text-orientation: mixed;
+  -moz-transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
   font-size: 6vh;
   color:white;
 }
 .customButtonLeftContainer{
-  border: 1px solid red;
   text-align: center;
   background-color: grey;
 }
@@ -519,6 +529,7 @@
   box-shadow: 1px 4px 8px green;
   border:2px solid green;
   margin-bottom: 7px;
+  color:white;
 }
 /* Pour l'écran */
 .marquee-rtl {
