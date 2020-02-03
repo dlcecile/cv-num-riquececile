@@ -25,7 +25,7 @@ $.each(skills, function(key, value) {
 // FIn des barres de progression
 //1er boutons qui clignote
 function cligno (){
-   $('.blinking_pad').fadeOut(200).fadeIn(100);
+   $('.blinking_pad1').fadeOut(200).fadeIn(100);
 }
 //je définis ma variable x
 var x;
