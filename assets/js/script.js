@@ -25,13 +25,13 @@ $.each(skills, function(key, value) {
 // FIn des barres de progression
 //1er boutons qui clignote
 function cligno (){
-   $('.blinking_pad').fadeOut(300).fadeIn(300);
+   $('.blinking_pad').fadeOut(200).fadeIn(100);
 }
 //je définis ma variable x
 var x;
 $(document).ready(function(){
 //Similaire à setTimeout, elle déclenche répétitivement la même action à intervalles réguliers.
-    x = setInterval('cligno()',2200);
+    x = setInterval('cligno()',1000);
 //setTimeout définit une action à exécuter et un délai avant son exécution
     setTimeout('myStopFunction()', 20000);
 });
